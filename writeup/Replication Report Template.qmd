@@ -21,6 +21,7 @@ The main challenge in replicating this experiment will be coding up the back-end
 
 ### Relevant Links
 [GitHub repository for this project](https://github.com/psych251/vanbaar2022)
+
 [Original paper](https://github.com/psych251/vanbaar2022/blob/main/original_paper/vanbaar2022.pdf)
 
 ## Methods
