@@ -19,6 +19,10 @@ In this experiment, in order to determine their decision-making strategy, partic
 
 The main challenge in replicating this experiment will be coding up the back-end. I already have experience with creating the front-end of a behavioral experiment through the progress I've made toward my honors thesis so far, but I'm currently in the process of learning this other component.
 
+### Relevant Links
+[GitHub repository for this project](https://github.com/psych251/vanbaar2022)
+[Original paper](https://github.com/psych251/vanbaar2022/blob/main/original_paper/vanbaar2022.pdf)
+
 ## Methods
 
 ### Power Analysis
