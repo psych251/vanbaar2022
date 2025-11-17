@@ -9,7 +9,7 @@ function getLandingPageHTML() {
                 <p><u>Welcome to the Social Prediction Game!</u></p> \
                 <p>This study consists of a task (the Social Prediction Game) \
                 and several questionnaires.</p> \
-                <p>We expect this study to take approximately 20 minutes to complete, \
+                <p>We expect this study to take approximately 30 minutes to complete, \
                     including the time it takes to read these instructions. \
                 </p> \
             </div>";
@@ -1060,7 +1060,7 @@ function initStudy() {
         experiment_id: experimentIdOSF, // global variable
         filename: trialDataFile,
         data_string: ()=>jsPsych.data.get().csv(),
-        on_finish: console.log('Data logged!')
+        on_finish: ()=>console.log('Data logged!')
     };
     timeline.push(saveTrialData); // Uncomment this when ready to send data to DataPipe
 
