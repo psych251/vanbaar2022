@@ -975,7 +975,7 @@ function initStudy() {
                     }
 
                     // update bonus points
-                    jsPsych.data.addProperties({bonusPointsTally: bonusPoints});
+                    jsPsych.data.addProperties({overallBonusPoints: bonusPoints});
 
                     let feedbackText = ScoreNum
                     ? `<p style="color:green; font-size:24px;">Correct!</p><p>You now have ${bonusPoints} points.</p>`
