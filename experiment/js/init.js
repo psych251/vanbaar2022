@@ -974,6 +974,9 @@ function initStudy() {
                         bonusPoints += 1
                     }
 
+                    // update bonus points
+                    jsPsych.data.addProperties({bonusPointsTally: bonusPoints});
+
                     let feedbackText = ScoreNum
                     ? `<p style="color:green; font-size:24px;">Correct!</p><p>You now have ${bonusPoints} points.</p>`
                     : `<p style="color:red; font-size:24px;">Incorrect</p><p>You still have ${bonusPoints} points.</p>`;
@@ -986,7 +989,7 @@ function initStudy() {
                     `;
                 },
                 choices: "ALL_KEYS",
-                data: {task: 'feedbackTrial', bonusPoints: bonusPoints}
+                data: {task: 'feedbackTrial'}
             };
             
             // push trial
