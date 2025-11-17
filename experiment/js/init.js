@@ -617,194 +617,194 @@ function initStudy() {
     timeline.push(fullscreenMsg);
 
     
-    // // instructions about the game
-    // var instructionsHTML = getInstructionsHTML();
-    // var instructionsMsg = {
-    //     type: jsPsychInstructions,
-    //     show_clickable_nav: true,
-    //     allow_backward: true,
-    //     allow_keys: false,
-    //     pages: [instructionsHTML]
-    // }
+    // instructions about the game
+    var instructionsHTML = getInstructionsHTML();
+    var instructionsMsg = {
+        type: jsPsychInstructions,
+        show_clickable_nav: true,
+        allow_backward: true,
+        allow_keys: false,
+        pages: [instructionsHTML]
+    }
 
 
-    // // comprehension check transition page
-    // var comprehensionCheckInstructionsHTML = getComprehensionCheckInstructionsHTML();
-    // var comprehensionCheckInstructions = {
-    //     type: jsPsychInstructions,
-    //     show_clickable_nav: true,
-    //     allow_backward: true,
-    //     allow_keys: false,
-    //     pages: [comprehensionCheckInstructionsHTML]
-    // }
+    // comprehension check transition page
+    var comprehensionCheckInstructionsHTML = getComprehensionCheckInstructionsHTML();
+    var comprehensionCheckInstructions = {
+        type: jsPsychInstructions,
+        show_clickable_nav: true,
+        allow_backward: true,
+        allow_keys: false,
+        pages: [comprehensionCheckInstructionsHTML]
+    }
 
 
-    // // comprehension check
-    // var comprehensionCheck = {
-    //     type: jsPsychSurveyMultiChoice,
-    //     questions: [{prompt: 'What is your task in the Social Prediction Game?',
-    //                 options:
-    //                     ['Choose the option you would take if you were playing the game',
-    //                     'Choose the option the anonymized participant chose',
-    //                     'Choose a random option'],
-    //                 required: true,
-    //                 name: 'task'},
-    //                 {prompt: 'How many options will you choose between in the Social Prediction Game?',
-    //                 options: ['1 option', '2 options'],
-    //                 required: true,
-    //                 name: 'numChoices'}],
-    //     data: {task: 'comprehensionCheck'}
-    // }
+    // comprehension check
+    var comprehensionCheck = {
+        type: jsPsychSurveyMultiChoice,
+        questions: [{prompt: 'What is your task in the Social Prediction Game?',
+                    options:
+                        ['Choose the option you would take if you were playing the game',
+                        'Choose the option the anonymized participant chose',
+                        'Choose a random option'],
+                    required: true,
+                    name: 'task'},
+                    {prompt: 'How many options will you choose between in the Social Prediction Game?',
+                    options: ['1 option', '2 options'],
+                    required: true,
+                    name: 'numChoices'}],
+        data: {task: 'comprehensionCheck'}
+    }
 
 
-    // // loop: repeat instructions + comprehension until correct
-    // var comprehensionLoop = {
-    //     timeline: [instructionsMsg, comprehensionCheckInstructions, comprehensionCheck],
-    //     loop_function: function(data) {
+    // loop: repeat instructions + comprehension until correct
+    var comprehensionLoop = {
+        timeline: [instructionsMsg, comprehensionCheckInstructions, comprehensionCheck],
+        loop_function: function(data) {
             
-    //         // extract last comprehension responses
-    //         var last_trial = data.values().slice(-1)[0];
-    //         var responses = last_trial.response;
+            // extract last comprehension responses
+            var last_trial = data.values().slice(-1)[0];
+            var responses = last_trial.response;
 
-    //         // define correct answers
-    //         var correct = {
-    //             task: 'Choose the option the anonymized participant chose',
-    //             numChoices: '2 options'
-    //         };
+            // define correct answers
+            var correct = {
+                task: 'Choose the option the anonymized participant chose',
+                numChoices: '2 options'
+            };
 
-    //         // check if both are correct
-    //         if (
-    //             responses.task === correct.task && responses.num_options === correct.num_options
-    //         ) {
-    //             return false; // stop looping
-    //         } else {
-    //             alert('Some answers were incorrect. Please review the instructions again.');
-    //             return true; // repeat loop
-    //         }
-    //     }
-    // };
-    // timeline.push(comprehensionLoop);
+            // check if both are correct
+            if (
+                responses.task === correct.task && responses.num_options === correct.num_options
+            ) {
+                return false; // stop looping
+            } else {
+                alert('Some answers were incorrect. Please review the instructions again.');
+                return true; // repeat loop
+            }
+        }
+    };
+    timeline.push(comprehensionLoop);
     
 
-    // // instructions before participants play decision games themselves
-    // var gameInstructionsHTML = getGameInstructionsHTML();
-    // var gameInstructionsMsg = {
-    //     type: jsPsychInstructions,
-    //     show_clickable_nav: true,
-    //     allow_keys: false,
-    //     pages: [gameInstructionsHTML],
-    // }
-    // timeline.push(gameInstructionsMsg);
+    // instructions before participants play decision games themselves
+    var gameInstructionsHTML = getGameInstructionsHTML();
+    var gameInstructionsMsg = {
+        type: jsPsychInstructions,
+        show_clickable_nav: true,
+        allow_keys: false,
+        pages: [gameInstructionsHTML],
+    }
+    timeline.push(gameInstructionsMsg);
 
 
-    // // participants play one game of each type themselves
-    // for (let matrix of getOneGameEachType()) {
-    //     const play_game_trial = {
-    //             type: jsPsychHtmlKeyboardResponse,
-    //             stimulus: `
-    //                 <div>
-    //                 ${matrix.matrixHTML}
-    //                 </div>
-    //                 <div id="choice-buttons" style="
-    //                 margin-top: 20px; 
-    //                 display: flex; 
-    //                 justify-content: center; 
-    //                 gap: 20px; 
-    //                 width: 100%;
-    //                 ">
-    //                 <button id="left-btn" style="padding:10px 20px;">${matrix.colorPair[0]}</button>
-    //                 <button id="right-btn" style="padding:10px 20px;">${matrix.colorPair[1]}</button>
-    //                 </div>
-    //                 <div style="margin-top: 40px; text-align: center;">
-    //                 <button id="submit-btn" style="padding: 10px 30px;" disabled>Submit</button>
-    //                 </div>
-    //             `,
-    //             choices: "NO_KEYS",
-    //             on_load: function() {
+    // participants play one game of each type themselves
+    for (let matrix of getOneGameEachType()) {
+        const play_game_trial = {
+                type: jsPsychHtmlKeyboardResponse,
+                stimulus: `
+                    <div>
+                    ${matrix.matrixHTML}
+                    </div>
+                    <div id="choice-buttons" style="
+                    margin-top: 20px; 
+                    display: flex; 
+                    justify-content: center; 
+                    gap: 20px; 
+                    width: 100%;
+                    ">
+                    <button id="left-btn" style="padding:10px 20px;">${matrix.colorPair[0]}</button>
+                    <button id="right-btn" style="padding:10px 20px;">${matrix.colorPair[1]}</button>
+                    </div>
+                    <div style="margin-top: 40px; text-align: center;">
+                    <button id="submit-btn" style="padding: 10px 30px;" disabled>Submit</button>
+                    </div>
+                `,
+                choices: "NO_KEYS",
+                on_load: function() {
 
-    //                 let selectedChoice = null;
-    //                 let GivenAns = null;
+                    let selectedChoice = null;
+                    let GivenAns = null;
 
-    //                 const leftBtn = document.getElementById('left-btn');
-    //                 const rightBtn = document.getElementById('right-btn');
-    //                 const submitBtn = document.getElementById('submit-btn');
+                    const leftBtn = document.getElementById('left-btn');
+                    const rightBtn = document.getElementById('right-btn');
+                    const submitBtn = document.getElementById('submit-btn');
 
-    //                 // check if both prediction and confidence are made
-    //                 function canSubmit() {
-    //                     return selectedChoice !== null;
-    //                 }
+                    // check if both prediction and confidence are made
+                    function canSubmit() {
+                        return selectedChoice !== null;
+                    }
 
-    //                 // enable or disable submit button based on selections
-    //                 function updateSubmitButton() {
-    //                     submitBtn.disabled = !canSubmit();
-    //                 }
+                    // enable or disable submit button based on selections
+                    function updateSubmitButton() {
+                        submitBtn.disabled = !canSubmit();
+                    }
                     
-    //                 function updateSelected(choice) {
-    //                     selectedChoice = choice;
+                    function updateSelected(choice) {
+                        selectedChoice = choice;
 
-    //                     // Reset both buttons
-    //                     leftBtn.style.backgroundColor = '';
-    //                     leftBtn.style.color = '';
-    //                     rightBtn.style.backgroundColor = '';
-    //                     rightBtn.style.color = '';
+                        // Reset both buttons
+                        leftBtn.style.backgroundColor = '';
+                        leftBtn.style.color = '';
+                        rightBtn.style.backgroundColor = '';
+                        rightBtn.style.color = '';
 
-    //                     // Highlight selected
-    //                     if (choice === matrix.colorPair[0]) {
-    //                         leftBtn.style.backgroundColor = matrix.colorPair[0];
-    //                         leftBtn.style.color = 'white';
-    //                         GivenAns = 'coop';
-    //                     } else if (choice === matrix.colorPair[1]) {
-    //                         rightBtn.style.backgroundColor = matrix.colorPair[1];
-    //                         rightBtn.style.color = 'white';
-    //                         GivenAns = 'def';
-    //                     }
+                        // Highlight selected
+                        if (choice === matrix.colorPair[0]) {
+                            leftBtn.style.backgroundColor = matrix.colorPair[0];
+                            leftBtn.style.color = 'white';
+                            GivenAns = 'coop';
+                        } else if (choice === matrix.colorPair[1]) {
+                            rightBtn.style.backgroundColor = matrix.colorPair[1];
+                            rightBtn.style.color = 'white';
+                            GivenAns = 'def';
+                        }
 
-    //                     updateSubmitButton();
-    //                 }
+                        updateSubmitButton();
+                    }
 
-    //                 leftBtn.addEventListener('click', () => updateSelected(matrix.colorPair[0]));
-    //                 rightBtn.addEventListener('click', () => updateSelected(matrix.colorPair[1]));
+                    leftBtn.addEventListener('click', () => updateSelected(matrix.colorPair[0]));
+                    rightBtn.addEventListener('click', () => updateSelected(matrix.colorPair[1]));
 
-    //                 // enable submit button if prediction made and confidence value chosen
-    //                 if (selectedChoice !== null) {
-    //                         submitBtn.disabled = false 
-    //                 }
+                    // enable submit button if prediction made and confidence value chosen
+                    if (selectedChoice !== null) {
+                            submitBtn.disabled = false 
+                    }
 
-    //                 submitBtn.addEventListener('click', () => {
+                    submitBtn.addEventListener('click', () => {
 
-    //                     // finish the trial, logging choice
-    //                     jsPsych.finishTrial({
-    //                         choice: selectedChoice,
-    //                         GivenAns: GivenAns,
-    //                     });
-    //                 });
-    //             },
-    //             data: {
-    //                 task: 'playOwnGame',
-    //                 Matrix: matrix.trial_matrix,
-    //                 S: matrix.trial_matrix.S,
-    //                 T: matrix.trial_matrix.T,
-    //                 R: matrix.trial_matrix.R,
-    //                 P: matrix.trial_matrix.P, 
-    //                 GameType: getGameType(matrix.trial_matrix)
-    //             },
-    //             on_finish: function(data) {
-    //                 console.log("Trial data:", data);
-    //         }
-    //     }
-    //     timeline.push(play_game_trial);
-    // };
+                        // finish the trial, logging choice
+                        jsPsych.finishTrial({
+                            choice: selectedChoice,
+                            GivenAns: GivenAns,
+                        });
+                    });
+                },
+                data: {
+                    task: 'playOwnGame',
+                    Matrix: matrix.trial_matrix,
+                    S: matrix.trial_matrix.S,
+                    T: matrix.trial_matrix.T,
+                    R: matrix.trial_matrix.R,
+                    P: matrix.trial_matrix.P, 
+                    GameType: getGameType(matrix.trial_matrix)
+                },
+                on_finish: function(data) {
+                    console.log("Trial data:", data);
+            }
+        }
+        timeline.push(play_game_trial);
+    };
 
-    // // transition to social prediction game
-    // var transitionToSocialPredictionGameHTML = getTransitionToSocialPredictionGameHTML();
-    // var transitionToSocialPredictionGameMsg = {
-    //     type: jsPsychInstructions,
-    //     show_clickable_nav: true,
-    //     allow_backward: true,
-    //     allow_keys: false,
-    //     pages: [transitionToSocialPredictionGameHTML]
-    // }
-    // timeline.push(transitionToSocialPredictionGameMsg);
+    // transition to social prediction game
+    var transitionToSocialPredictionGameHTML = getTransitionToSocialPredictionGameHTML();
+    var transitionToSocialPredictionGameMsg = {
+        type: jsPsychInstructions,
+        show_clickable_nav: true,
+        allow_backward: true,
+        allow_keys: false,
+        pages: [transitionToSocialPredictionGameHTML]
+    }
+    timeline.push(transitionToSocialPredictionGameMsg);
 
 
     // create randomized blocks
