@@ -986,7 +986,7 @@ function initStudy() {
                     `;
                 },
                 choices: "ALL_KEYS",
-                data: {task: 'feedbackTrial'}
+                data: {task: 'feedbackTrial', bonusPoints: bonusPoints}
             };
             
             // push trial
@@ -1017,10 +1017,6 @@ function initStudy() {
             timeline.push(transitionBetweenBlocksMsg);
         }
     }
-    
-
-    // add bonus points received to data
-    jsPsych.data.addProperties({finalBonusPoints: bonusPoints})
 
 
     // demographics
