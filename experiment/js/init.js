@@ -1019,6 +1019,10 @@ function initStudy() {
     }
     
 
+    // add bonus points received to data
+    jsPsych.data.addProperties({finalBonusPoints: bonusPoints})
+
+
     // demographics
     var ageHTML = getAgeHTML();
     var genderHTML = getGenderHTML();
@@ -1055,7 +1059,8 @@ function initStudy() {
         action: 'save',
         experiment_id: experimentIdOSF, // global variable
         filename: trialDataFile,
-        data_string: ()=>jsPsych.data.get().csv() 
+        data_string: ()=>jsPsych.data.get().csv(),
+        on_finish: console.log('Data logged!')
     };
     timeline.push(saveTrialData); // Uncomment this when ready to send data to DataPipe
 
@@ -1070,11 +1075,10 @@ function initStudy() {
         delay: false,
         button_label_next: 'Finish',
 
-        on_finish: function() {
-          window.onbeforeunload = null; // prevent warning message on redirect
-          window.open(prolificCompletionURL, '_self');
-          jsPsych.data.addProperties({finalBonusPoints: bonusPoints});
-        }
+        // on_finish: function() {
+        //   window.onbeforeunload = null; // prevent warning message on redirect
+        //   window.open(prolificCompletionURL, '_self');
+        // }
     };
     timeline.push(completionMsg);
 
