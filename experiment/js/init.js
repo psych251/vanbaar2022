@@ -89,12 +89,14 @@ function getFeedbackHTML() {
 // provide completition message
 function getCompletionHTML() {
     var completionHTML = `<div class='prevent-select bounding-div'> \
-        <p>Thanks for participating! You are all done. <strong>Click Finish to submit this study to Prolific.</strong></p> \
-        <p> The goal of this study was to learn how humans predict the behavior of others.</p> \
-        <p>However, you were not actually predicting the behavior of real people. The behavior of the \
-        each of the "participants" was artificially generated. \
-        This is an attempt to replicate the findings from \
-        <a href=https://www.nature.com/articles/s41562-021-01207-4> this paper</a> (van Baar et al., 2022). \
+            <p>Thanks for participating! You are all done. <strong>Click Finish to submit this study to Prolific.</strong></p> \
+            <p> After you click Finish, you will see a blank page on this web page but will be redirected to the Prolific homepage. \
+            This means that your participation has been logged. If you do not receive credit immediately, please wait a few days. \
+            <p> The goal of this study was to learn how humans predict the behavior of others.</p> \
+            <p>However, you were not actually predicting the behavior of real people. The behavior of the \
+            each of the "participants" was artificially generated. \
+            This is an attempt to replicate the findings from \
+            <a href=https://www.nature.com/articles/s41562-021-01207-4> this paper</a> (van Baar et al., 2022). \
         </div>`;
     return completionHTML;
 }
@@ -557,6 +559,8 @@ function getStrategyPredictionHTML(initials) {
 // initialize bonus points
 var bonusPoints = 0
 
+// prolific completion code
+var prolificCompletionURL = 'https://app.prolific.com/submissions/complete?cc=CKHYZR48'
 
 // run the experiment
 function initStudy() {
@@ -1084,10 +1088,10 @@ function initStudy() {
         delay: false,
         button_label_next: 'Finish',
 
-        // on_finish: function() {
-        //   window.onbeforeunload = null; // prevent warning message on redirect
-        //   window.open(prolificCompletionURL, '_self');
-        // }
+        on_finish: function() {
+          window.onbeforeunload = null; // prevent warning message on redirect
+          window.open(prolificCompletionURL, '_self');
+        }
     };
     timeline.push(completionMsg);
 
