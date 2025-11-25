@@ -841,10 +841,14 @@ function initStudy() {
             `,
             choices: "NO_KEYS",
             on_load: function() {
-
+                // initialize timer for trial
+                start_time = performance.now()
+                
+                // initialize the responses
                 let selectedChoice = null;
                 let GivenAns = null;
 
+                // find the three response buttons
                 const leftBtn = document.getElementById('left-btn');
                 const rightBtn = document.getElementById('right-btn');
                 const submitBtn = document.getElementById('submit-btn');
@@ -928,7 +932,6 @@ function initStudy() {
                     const CorrAns = matrix.corrAns;
                     const ScoreNum = (GivenAns === CorrAns) ? 1 : 0;
 
-
                     // finish the trial, logging prediction and confidence value
                     jsPsych.finishTrial({
                         choice: selectedChoice,
@@ -936,6 +939,7 @@ function initStudy() {
                         GivenAns: GivenAns,
                         ScoreNum: ScoreNum
                     });
+
                 });
             },
             data: {
@@ -951,6 +955,12 @@ function initStudy() {
                 CorrAns: matrix.corrAns
             },
             on_finish: function(data) {
+                // capture the time at which the trial ends
+                end_time = performance.now()
+
+                // record the time the participant spends on the trial
+                data.time_on_trial = end_time - start_time;
+
                 console.log("Trial data:", data);
             }
             };
