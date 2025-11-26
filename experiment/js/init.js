@@ -505,28 +505,6 @@ function getComprehensionCheckInstructionsHTML() {
 }
 
 
-// get HTML for the comprehension check
-function getComprehensionCheckHTML() {
-    var comprehensionCheckHTML = `
-        <div style = "text-align: left">
-            <p><b>1.</b> What is your task in the Social Prediction Game?</p>
-            <label><input type="radio" name="q1" value="wrong1"> Choose the option you would take if you were playing the game</label><br>
-            <label><input type="radio" name="q1" value="correct"> Choose the option the anonymized participant chose</label><br>
-            <label><input type="radio" name="q1" value="wrong2"> Choose a random option</label><br><br>
-
-            <p><b>2.</b> How many options will you choose between in the Social Prediction Game?</p>
-            <label><input type="radio" name="q2" value="wrong1"> 1 option</label><br>
-            <label><input type="radio" name="q2" value="correct"> 2 options</label><br><br>
-
-            <p><i>You must answer both questions correctly to continue.</i></p>
-            <div id="feedback" style="color:red; font-weight:bold; display:none;">
-            Some answers are incorrect — please review and try again.
-            </div>
-        </div>`;
-    return comprehensionCheckHTML;
-}
-
-
 // get HTML for transition to social prediction game
 function getTransitionToSocialPredictionGameHTML() {
     var transitionToSocialPredictionGameHTML = "<div class='prevent-select bounding-div'> \
@@ -643,10 +621,12 @@ function initStudy() {
                         'Choose a random option'],
                     required: true,
                     name: 'task'},
-                    {prompt: 'How many options will you choose between in the Social Prediction Game?',
-                    options: ['1 option', '2 options'],
+                    {prompt: 'Did the Players from the original 2015 experiment have a financial incentive to play the Decision Games carefully?',
+                        options:
+                            ['Yes—they received bonuses based on their performance',
+                            'No—they received the same payment regardless of their performance'],
                     required: true,
-                    name: 'numChoices'}],
+                    name: 'incentive'}],
         data: {task: 'comprehensionCheck'}
     }
 
@@ -663,12 +643,12 @@ function initStudy() {
             // define correct answers
             var correct = {
                 task: 'Choose the option the anonymized participant chose',
-                numChoices: '2 options'
+                incentive: 'Yes—they received bonuses based on their performance'
             };
 
             // check if both are correct
             if (
-                responses.task === correct.task && responses.num_options === correct.num_options
+                responses.task === correct.task && responses.incentive === correct.incentive
             ) {
                 return false; // stop looping
             } else {
@@ -1073,6 +1053,7 @@ function initStudy() {
         experiment_id: experimentIdOSF, // global variable
         filename: trialDataFile,
         data_string: ()=>jsPsych.data.get().csv(),
+        on_start: ()=>console.log(jsPsych.data.get().csv()),
         on_finish: ()=>console.log('Data logged!')
     };
     timeline.push(saveTrialData); // Uncomment this when ready to send data to DataPipe
