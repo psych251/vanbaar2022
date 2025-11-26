@@ -611,16 +611,6 @@ function initStudy() {
     timeline.push(landingPage);
 
     
-    // add fullscreen notification
-    var fullscreenHTML = getFullscreenHTML();
-    var fullscreenMsg = {
-        type: jsPsychFullscreen,
-        fullscreen_mode: true,
-        message: fullscreenHTML
-    };
-    timeline.push(fullscreenMsg);
-
-    
     // instructions about the game
     var instructionsHTML = getInstructionsHTML();
     var instructionsMsg = {
@@ -682,12 +672,22 @@ function initStudy() {
             ) {
                 return false; // stop looping
             } else {
-                alert('Some answers were incorrect. Please review the instructions again.');
+                alert('One or both of your answers were incorrect. Please review the instructions and try again.');
                 return true; // repeat loop
             }
         }
     };
     timeline.push(comprehensionLoop);
+
+
+    // add fullscreen notification
+    var fullscreenHTML = getFullscreenHTML();
+    var fullscreenMsg = {
+        type: jsPsychFullscreen,
+        fullscreen_mode: true,
+        message: fullscreenHTML
+    };
+    timeline.push(fullscreenMsg);
     
 
     // instructions before participants play decision games themselves
