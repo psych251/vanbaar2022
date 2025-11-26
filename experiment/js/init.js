@@ -91,7 +91,7 @@ function getCompletionHTML() {
     var completionHTML = `<div class='prevent-select bounding-div'> \
             <p>Thanks for participating! You are all done. <strong>Click Finish to submit this study to Prolific.</strong></p> \
             <p> After you click Finish, you will see a blank page on this web page but will be redirected to the Prolific homepage. \
-            This means that your participation has been logged. If you do not receive credit immediately, please wait a few days. \
+            This means that your participation has been logged. You will receive your payment within the next few days. \
             <p> The goal of this study was to learn how humans predict the behavior of others.</p> \
             <p>However, you were not actually predicting the behavior of real people. The behavior of the \
             each of the "participants" was artificially generated. \
