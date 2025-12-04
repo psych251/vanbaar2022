@@ -1,0 +1,492 @@
+---
+title: "Replication of 'Latent motives guide structure learning during adaptive social choice' by van Baar et al. (2022, Nature Human Behavior)"
+bibliography: references.bib
+author: "Nora Dee (noradee@stanford.edu)"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+format:
+  html:
+    toc: true
+    toc_depth: 3
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+
+```{r include=FALSE}
+# Load libraries
+library(pwr)
+library(reticulate)
+
+# Install all required Python packages in the cached environment
+py_install(c("numpy", "pandas", "scipy", "matplotlib", "seaborn", "pymer4"))
+```
+
+## Introduction
+
+For this project, I propose to replicate a portion of Experiment 1 from
+@van2022latent. Its findings demonstrate that people make predictions
+about the behavior of others by detecting and leveraging their latent
+motives. This paper is of import to my honors thesis, which explores how
+humans learn information that allows them to successfully generalize
+about others. In my thesis, I will run a behavioral experiment which may
+utilize these same economic games and a similar prediction task. I would
+run this experiment and, due to the constraints of the class timeline
+and my experience, conduct its analyses up until the computational
+modeling component.
+
+In this experiment, in order to determine their decision-making
+strategy, participants first indicate how they would play each of four
+economic game types (the stimuli in this experiment). Then, they play
+four blocks of the "Social Prediction Game," wherein in each of sixteen
+trials they predict what a (experimenter-generated) player would choose
+in these economic games and rate their confidence in their prediction.
+At the end, they self-report what they think the player's strategy was
+in a free response format. Using t-tests, the prediction accuracy of
+participants is compared to what it would be under a few potential
+learning strategies humans may use to investigate how plausible they
+are. I plan to test some of the more basic hypotheses that experimenters
+found evidence against here. More specifically, they found that
+participants don't 1) simply expect players to repeat their past
+behavior, 2) refrain from generalizing across trials, or 3) engage in a
+form of "naive statistical learning."
+
+The main challenge in replicating this experiment will be coding up the
+back-end. I already have experience with creating the front-end of a
+behavioral experiment through the progress I've made toward my honors
+thesis so far, but I'm currently in the process of learning this other
+component.
+
+### Relevant Links
+
+[Experiment
+paradigm](https://noradee.github.io/psych251_project/experiments/pilot/)
+
+[GitHub repository for this
+project](https://github.com/psych251/vanbaar2022)
+
+[Original
+paper](https://github.com/psych251/vanbaar2022/blob/main/original_paper/vanbaar2022.pdf)
+
+## Methods
+
+### Power Analysis
+
+There are two analyses which I will attempt to replicate. For the first,
+the authors conducted a two-tailed one-sample t-test and reported a
+Cohen's d of 1.00. Power analysis indicates that to achieve 80%, 90%,
+and 95% power, 10, 13, and 16 participants will be needed, respectively.
+
+```{r}
+pwr.t.test(d = 1.00, power = 0.8, sig.level = 0.05, type = "one.sample", alternative="two.sided")
+pwr.t.test(d = 1.00, power = 0.9, sig.level = 0.05, type = "one.sample", alternative="two.sided")
+pwr.t.test(d = 1.00, power = 0.95, sig.level = 0.05, type = "one.sample", alternative="two.sided")
+```
+
+For the second analysis, the authors conducted a two-tailed
+paired-samples t-test and reported a Cohen's d of 1.80. Power analysis
+indicates that to achieve 80%, 90%, and 95% power, 5, 6, and 7
+participants will be needed, respectively.
+
+```{r}
+pwr.t.test(d = 1.80, power = 0.8, sig.level = 0.05, type = "paired", alternative="two.sided")
+pwr.t.test(d = 1.80, power = 0.9, sig.level = 0.05, type = "paired", alternative="two.sided")
+pwr.t.test(d = 1.80, power = 0.95, sig.level = 0.05, type = "paired", alternative="two.sided")
+```
+
+Overall, the analyses which I will be running will require very few
+participants to be well-powered. The same is likely not true for the
+later analyses in the paper, which I will not be conducting. The authors
+included 150 participants in their study, indicating that "The sample
+size was chosen such that key effects from smaller pilot studies could
+be observed with high statistical power" [@van2022latent].
+
+### Planned Sample
+
+I plan to conduct this experiment with 75 participants — half of the 150
+that was used in the original study. Just as in the original study, all
+participants will be American adults. However, Prolific will be used as
+the sampling frame instead of MTurk.
+
+### Materials
+
+The article provided the following set of instructions which were given
+to participants. I made only a few minor modifications: I replaced "HIT"
+with "study" due to the experiment being conducted on Prolific as
+opposed to MTurk, as well as added an estimate of time required to
+complete the study (20 minutes).
+
+> Welcome to the Social Prediction Game. This HIT consists of a task
+> (the Social Prediction Game) and several questionnaires.
+>
+> [Social Prediction Game]{.underline}
+>
+> This game is designed to study how we make predictions about the
+> decisions of other people. You will observe Decision Games played by
+> pairs of other people. These people took part in a previous experiment
+> (in 2015) where they played these Decision Games. These people could
+> earn money in these Decision Games: the more points they earned, the
+> more money they earned. Therefore, these people were motivated to play
+> the Decision Games well.
+>
+> [Goal of the task]{.underline}
+>
+> In the Social Prediction Game, your job is to predict the choices that
+> other people (the Players) have already made in these Decision Games.
+> The current Player you will be asked to follow will always be
+> indicated by their initials, for example A.B. You will see this Player
+> play 16 Decision Games, each time with a different Opponent. Keep in
+> mind, these scenarios were really played out between these people.
+> Your job is to predict what action the current Player (for example
+> A.B.) will take in each scenario. You do NOT have to predict how the
+> Opponent will decide, just the current Player.
+>
+> [Earning a bonus]{.underline}
+>
+> If you predict correctly what the Player does in each scenario, you
+> will earn a Point. The more Points you earn, the more money you will
+> earn for doing this HIT. You will see 4 different Players play 16
+> Decision Games each. This means you can earn at most 64 points. Each
+> Point is worth \$0.01 in the Social Prediction Game (your task). This
+> will be added as a bonus to your base payment of \$4.00.
+>
+> [Next steps]{.underline}
+>
+> On the next screens, you will read more about the Decision Games and
+> see some examples. Afterwards, you will be quizzed to make sure you
+> fully understand the Social Prediction Game task. Then, you will be
+> asked to indicate how you yourself would play the Decision Game, if
+> you were a Player. Finally, you will start the actual task: the Social
+> Prediction Game. After the game is over, you will be asked to complete
+> several questionnaires.
+>
+> **NOTE: You will need to answer all quiz questions correctly to start
+> the task and complete this HIT.**
+
+The original authors also provided a screenshot of what the Social
+Prediction Game looked like to participants. This was used as the model
+for designing my own game interface.
+
+![An example Social Prediction Game interface from the original
+study](original_task_interface.png)
+
+![An example Social Prediction Game interface in my
+replication](replication_task_interface.png)
+
+### Procedure
+
+The authors provided the following text explaining the procedure of
+their experiment.
+
+> The participants first read the instructions and were quizzed to
+> ensure their understanding and filter out potential bots. The
+> participants were then asked to indicate for each game type in the
+> Social Prediction Game how they themselves would choose, from which we
+> estimated the participants’ own decision strategies. They then
+> completed the Social Prediction Game. . .
+>
+> . . .The participants played four blocks of the Social Prediction
+> Game, each block with a different Player, and were tasked with
+> predicting the choices of this particular Player across 16 consecutive
+> economic games. The Players always played single-shot against
+> anonymous Opponents. Each game was presented as a 2 × 2 payoff matrix
+> (Fig. 1a) where the Player and Opponent each have two choices:
+> co-operation and defection. In the task, these choices were labelled
+> by arbitrary colour words (such as blue or green) whose mapping to
+> co-operation and defection changed on every task block.
+>
+> The games varied on two features central to social interactions: risk
+> of co-operating (here operationalized as S) and T (Fig. 1b). At
+> T \< 10 and S \> 5, the games fall under a class of Harmony Game,
+> where each player’s payoff-maximizing action aligns with the jointly
+> payoff-maximizing action, and thus no conflict arises except through
+> potential envy61. At T \> 10 and S \> 5, the games are classified as
+> Snowdrift Games (also known as Volunteer’s Dilemmas), which are
+> anti-coordination games where unilateral defection is preferable to
+> mutual co-operation, but mutual defection yields the smallest payoff
+> for all62. At T \> 10 and S \< 5 lie the Prisoner’s Dilemma games,
+> which are characterized by a high value of T even if one’s opponent
+> defects as well, and co-operation is risky as unilateral co-operation
+> yields the lowest possible payoff33. At T \< 10 and S \< 5, the games
+> are Stag Hunts, in which mutual co-operation yields the highest payoff
+> for both, but co-operation is risky as unilateral co-operation is met
+> with the lowest payoff63.
+>
+> The task of the participants was to indicate, in each trial, what they
+> believed the Player would choose to do in the current game, and to
+> rate their confidence in this prediction on an 11-point scale from 0%
+> to 100% (10% increments). They received feedback on every trial
+> indicating whether their prediction was correct or not, and earned a
+> US\$0.01 bonus for every correct trial. At the end of 16 trials (one
+> block), the participants self-reported what they believed the Player’s
+> strategy was using a free-response answer box. After four blocks, the
+> total earned bonus was presented to the participants and added to the
+> base payment. The participants were then taken to a survey hosted on
+> Qualtrics to finish the experiment.
+
+The only changes I made to the procedure were that I have not currently
+implemented the bonuses (see "Differences from Original Study") and that
+the survey to finish the experiment was conducted using jsPsych instead
+of rerouting to Qualtrics.
+
+### Analysis Plan
+
+For this replication project, I ran two of the authors' analyses,
+detailed below in their own words:
+
+> One possibility is that they expect a Player to simply repeat their
+> past behaviour due to stable preferences for co-operation10. This
+> could be thought of as basic reinforcement learning, where the
+> participant learns the value of predicting ‘co-operate’ and ‘defect’
+> for the current Player without distinguishing between different games
+> (an approach doomed to fail in the more complex Social Prediction
+> Game). Another possibility is that participants refrain from
+> generalizing across games at all, because each trial is unique. Since
+> all Players co-operate and defect on half the trials, both these
+> strategies would yield on average 50% accuracy in our task. However,
+> the observed accuracy was significantly greater (59.1% ± 9.1% (s.d.);
+> two-tailed one-sample t-test: t(149) = 12.2, P \< 0.001, Cohen’s
+> d = 1.00).
+>
+> A third possible strategy is naïve statistical learning, whereby
+> participants detect the mapping between S or T and the Player’s
+> choices (for example, learning that Inverse Risk-Averse co-operates
+> when S \< 5). Such a strategy reflects how participants learn latent
+> structure in non-social tasks containing abstract stimuli such as
+> coloured shapes and fractals26,27. If true, task performance should be
+> equal across all Player strategies, as each strategy is a step
+> function with a single change point on the S or T dimension (Fig. 1c).
+> However, performance was much higher for human than artificial
+> strategies (Greedy and Risk-Averse: average accuracy, 71.6% ± 10.5%;
+> Inverse strategies: 46.5% ± 12.4%; two-tailed paired-samples t-test:
+> t(149) = 22.0, P \< 0.001, d = 1.80; Fig. 2a).
+
+To summarize, the authors ran:
+
+1.  A two-tailed one-sample *t*-test of\
+    $$
+    H_0: p = 0.5 \quad \text{vs.} \quad H_a: p \neq 0.5
+    $$
+
+2.  A two-tailed paired-samples *t*-test of\
+    $$
+    H_0: p_H = p_A \quad \text{vs.} \quad H_a: p_H \neq p_A
+    $$
+
+where $p$ is accuracy, $p_H$ is accuracy against human strategies, and
+$p_A$ is accuracy against artificial strategies. I do not plan to run
+any additional analyses.
+
+The authors did not specify any data cleaning rules, and shared their
+clean data but not the raw data. They also did not indicate any data
+exclusion rules (although, as mentioned earlier, participants were not
+allowed to proceed to the task without passing comprehension checks).
+
+### Differences from Original Study
+
+In terms of sample, there are not likely to be meaningful differences
+between mine and that of the original authors. The only difference is
+that they recruited participants from MTurk, whereas I will recruit
+participants from Prolific. After more data is collected, average age
+and gender split of participants can be compared to what was reported by
+the authors to further investigate the similarity of the samples.
+
+There are, however, a handful of differences to note with respect to the
+procedure, which I will note in the order in which they appear. First is
+that our comprehension checks likely differ. While the authors indicate
+that participants were "were quizzed to ensure their understanding and
+filter out potential bots," they do not indicate what the questions or
+the filtering criteria were [@van2022latent]. I created my own two
+comprehension check questions and designed the procedure to keep sending
+participants back to reread the instructions if they did not answer both
+of the comprehension checks correctly.
+
+Additionally, while the authors provided examples of the task (the
+"Social Prediction Game") to the participants before they engaged in it,
+I did not. The authors did not include any details about these examples,
+and I was not confident in how to create and walk a participant through
+an example in a helpful way without biasing them to think about the
+potential motives of the person for whom they are predicting and
+consequently creating demand characteristics. This choice may lead to
+some participants not understanding the task as well. A future iteration
+of my experiment may include examples if I can think of one which would
+be helpful to participants and not contaminate the sample.
+
+I also added in various transitional instruction pages to the experiment
+because the authors did not provide the code for the experiment or all
+of the text presented to participants -- they only provided the main
+instructions page.
+
+The last and likely most meaningful change is that the authors included
+bonuses based on performance on the Social Prediction Game -- my
+experiment does not currently include this aspect of the design. I am
+not currently sure whether I can incorporate these bonuses based on the
+logistical and financial limitations of this class, but am in contact
+with a TA to work this out. Not including bonuses will likely result in
+participants being less motivated to perform the task thoughtfully,
+which would lead to difference predictions being made.
+
+<!-- ### Methods Addendum (Post Data Collection) -->
+
+<!-- You can comment this section out prior to final report with data -->
+
+<!-- collection. -->
+
+<!-- #### Actual Sample -->
+
+<!-- Sample size, demographics, data exclusions based on rules spelled out in -->
+
+<!-- analysis plan -->
+
+<!-- #### Differences from pre-data collection methods plan -->
+
+<!-- Any differences from what was described as the original plan, or “none”. -->
+
+## Results
+
+### Data preparation
+
+```{python}
+### Data Preparation
+#### Load Relevant Libraries and Functions
+import sys, os, glob, scipy, matplotlib
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import matplotlib.ticker as mtick
+import json
+import glob
+
+#### Import data
+proj_dir = os.path.abspath('../')
+print(proj_dir)
+data_dir = os.path.join(proj_dir,'data/pilotB')
+print(data_dir)
+
+##### Get a list of all CSV files in the folder
+all_files = glob.glob(os.path.join(data_dir, "*.csv"))
+print(f'The csv files are {all_files}')
+
+##### Get the number of CSV files in the folder
+num_participants = len(all_files)
+print(f'There are {num_participants} participants found')
+
+##### Read each CSV into a DataFrame and store them in a list
+list_of_dfs = [pd.read_csv(f) for f in all_files]
+
+##### Concatenate all DataFrames in the list into a single DataFrame
+df = pd.concat(list_of_dfs, ignore_index=True)
+
+##### Examine df
+print(f'The columns are {df.columns}')
+df.head(3)
+
+##### Check how many participants to see if matches with before
+print(f'There are {len(df['subjectID'].unique())} participants found')
+
+#### Data exclusion / filtering
+print('There is no data exclusion / filtering')
+
+#### Prepare data for analysis - create columns etc.
+##### Filter for rows which hold the responses to the social prediction game
+taskDat = df[df['task'] == 'socialPredictionGame']
+
+##### Remove unnecessary columns
+cols = ['rt', 'time_elapsed', 'subjectID', 'studyID', 'sessionID', 'task', 'Matrix', 'S', 'T', 'R', 'P', 'GameType', 'choice', 'GivenAns', 'Player', 'PlayerType', 'CorrAns', 'confidence', 'ScoreNum', 'stimulus']
+taskDat = taskDat[cols]
+
+##### Examine df
+taskDat.head(3)
+
+##### Rename columns to correspond with those used in paper
+taskDat.rename(columns = {
+    'subjectID': 'subID',
+    'PlayerType': 'Type_Total',
+    'confidence': 'Confidence',
+    'ScoreNum': 'Score'
+}, inplace=True)
+
+##### Add 'Type' and 'Variant' columns from 'Type_Total'
+taskDat[['Type', 'Variant']] = taskDat['Type_Total'].str.split('_', expand=True)
+```
+
+### Confirmatory analysis
+
+Here, I run the two aforementioned t-tests which examine whether 1)
+participants perform better than chance and 2) participants before
+better on human versus artificial strategies.
+
+```{python}
+# Conduct t-tests (code provided by authors, with some small modifications)
+
+## Calculate the mean score for each subject, for each condition
+meanPerSubCondition = taskDat.groupby(['subID','Variant'], as_index=False)['Score'].mean().pivot(
+    index='subID', columns='Variant', values='Score')
+meanPerSubCondition.head()
+
+## Run t-test comparing overall accuracy against random choice (50%)
+t_statistic, p_value = scipy.stats.ttest_1samp(meanPerSubCondition['inv'], .5)
+print(f"T-statistic: {t_statistic:.3f}")
+print(f"P-value: {p_value:.3f}")
+
+## Run t-test comparing accuracy against natural vs. artifical strategies
+t_statistic, p_value = scipy.stats.ttest_rel(meanPerSubCondition['inv'],meanPerSubCondition['nat'])
+print(f"T-statistic: {t_statistic:.3f}")
+print(f"P-value: {p_value:.3f}")
+
+```
+
+We fail to reject the null hypothesis for both t-tests. This is what we
+would expect no matter what the underlying truth is since I only have
+two participants for Pilot B. However, it is promising that both
+participants were more accurate against the human strategies than they
+were against the artificial ones.
+
+#### Original graph versus graph from replication
+
+![](original_results.png)
+
+```{python}
+# Create Figure 2 Panel A (code provided by authors, with some small modifications)
+sns.set_context('poster')
+blockDat = (taskDat.groupby(['subID', 'Variant'], as_index=False)[['Confidence', 'Score']].mean())
+fig, ax = plt.subplots(1,1,figsize=[6,5])
+sns.barplot(data=blockDat,x='Variant',y='Score', ax=ax, errwidth = 3, capsize=.1,
+            order=['nat','inv'],alpha=0)
+sns.swarmplot(data=blockDat,x='Variant',y='Score', ax=ax,
+            order=['nat','inv'], alpha=.3, color = 'k')
+ax.plot([-5,5],[.5,.5], 'k--', lw=2)
+ax.set(ylim = [0,1.1], xlim = [-.5,1.5], xlabel = None, yticks = [0,.25,.5,.75,1],
+       title = 'Performance by strategy type',
+       xticklabels = ['Human\nStrategies', 'Artificial\nStrategies'], ylabel = 'Accuracy     ');
+dat1 = blockDat.loc[blockDat['Variant']=='nat','Score'].values
+dat2 = blockDat.loc[blockDat['Variant']=='inv','Score'].values
+stats = scipy.stats.ttest_rel(dat2,dat1)
+sns.despine(top=True,right=True)
+ax.spines['left'].set_bounds(0,1)
+ax.set_ylim([0,1.4])
+ax.yaxis.set_major_formatter(mtick.PercentFormatter(xmax=1))
+plt.show()
+```
+
+## Discussion
+
+### Summary of Replication Attempt
+
+Open the discussion section with a paragraph summarizing the primary
+result from the confirmatory analysis and the assessment of whether it
+replicated, partially replicated, or failed to replicate the original
+result.
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from
+follow-up exploratory analysis, (b) assessment of the meaning of the
+replication (or not) - e.g., for a failure to replicate, are the
+differences between original and present study ones that definitely,
+plausibly, or are unlikely to have been moderators of the result, and
+(c) discussion of any objections or challenges raised by the current and
+original authors about the replication attempt. None of these need to be
+long.
