@@ -8,7 +8,7 @@ const TEST = false;
 const SEED = false;
 
 // experiment ID for sending data to OSF
-const experimentIdOSF = 'Yelbsh6i6oKs';
+const experimentIdOSF = 'KkllZQ3RBt45';
 
 // possible values for S and T in payoff matrix
 s_values = [0, 3, 7, 10]
