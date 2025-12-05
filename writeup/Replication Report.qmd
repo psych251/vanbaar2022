@@ -362,7 +362,7 @@ import glob
 #### Import data
 proj_dir = os.path.abspath('../')
 print(proj_dir)
-data_dir = os.path.join(proj_dir,'data/pilotB')
+data_dir = os.path.join(proj_dir,'data/fulldata')
 print(data_dir)
 
 ##### Get a list of all CSV files in the folder
@@ -466,8 +466,8 @@ dat2 = blockDat.loc[blockDat['Variant']=='inv','Score'].values
 stats = scipy.stats.ttest_rel(dat2,dat1)
 sns.despine(top=True,right=True)
 ax.spines['left'].set_bounds(0,1)
-ax.set_ylim([0,1.4])
 ax.yaxis.set_major_formatter(mtick.PercentFormatter(xmax=1))
+plt.subplots_adjust(left=0.25, bottom=0.3)
 plt.show()
 ```
 
