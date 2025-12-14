@@ -1,5 +1,5 @@
 """
-Script for anonymizing data from Qualtrics
+Script for anonymizing data
 """
 import os
 import csv
@@ -15,6 +15,7 @@ cols_to_drop = [
     "LocationLatitude",
     "LocationLongitude",
     "PROLIFIC_PID",
+    "prolificID"
 ]
 
 
