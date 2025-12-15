@@ -7,6 +7,7 @@ format:
   html:
     toc: true
     toc_depth: 3
+    code-overflow: wrap
 editor: 
   markdown: 
     wrap: 72
@@ -18,6 +19,7 @@ editor:
 # Load libraries
 library(pwr)
 library(reticulate)
+library(lsr)
 
 # Install all required Python packages in the cached environment
 py_install(c("numpy", "pandas", "scipy", "matplotlib", "seaborn", "pymer4"))
@@ -28,8 +30,7 @@ py_install(c("numpy", "pandas", "scipy", "matplotlib", "seaborn", "pymer4"))
 For this project, I propose to replicate a portion of Experiment 1 from
 @van2022latent. Its findings demonstrate that people make predictions
 about the behavior of others by detecting and leveraging their latent
-motives. This paper is of import to my honors thesis, which explores how
-humans learn information that allows them to successfully generalize
+motives. This paper is of import to my undergraduate honors thesis, which explores how humans learn information that allows them to successfully generalize
 about others. In my thesis, I will run a behavioral experiment which may
 utilize these same economic games and a similar prediction task. I would
 run this experiment and, due to the constraints of the class timeline
@@ -52,22 +53,18 @@ participants don't 1) simply expect players to repeat their past
 behavior, 2) refrain from generalizing across trials, or 3) engage in a
 form of "naive statistical learning."
 
-The main challenge in replicating this experiment will be coding up the
-back-end. I already have experience with creating the front-end of a
-behavioral experiment through the progress I've made toward my honors
-thesis so far, but I'm currently in the process of learning this other
-component.
-
 ### Relevant Links
 
 [Experiment
-paradigm](https://noradee.github.io/psych251_project/experiments/pilot/)
+paradigm](https://psych251.github.io/vanbaar2022/experiment/)
 
 [GitHub repository for this
 project](https://github.com/psych251/vanbaar2022)
 
 [Original
 paper](https://github.com/psych251/vanbaar2022/blob/main/original_paper/vanbaar2022.pdf)
+
+[Preregistration](https://osf.io/mh9dk/overview)
 
 ## Methods
 
@@ -104,10 +101,10 @@ be observed with high statistical power" [@van2022latent].
 
 ### Planned Sample
 
-I plan to conduct this experiment with 75 participants — half of the 150
-that was used in the original study. Just as in the original study, all
-participants will be American adults. However, Prolific will be used as
-the sampling frame instead of MTurk.
+I planned to conduct this experiment with 75 participants — half of the
+150 that was used in the original study. Just as in the original study,
+all participants will be American adults. However, Prolific will be used
+as the sampling frame instead of MTurk.
 
 ### Materials
 
@@ -225,10 +222,9 @@ their experiment.
 > base payment. The participants were then taken to a survey hosted on
 > Qualtrics to finish the experiment.
 
-The only changes I made to the procedure were that I have not currently
-implemented the bonuses (see "Differences from Original Study") and that
-the survey to finish the experiment was conducted using jsPsych instead
-of rerouting to Qualtrics.
+The only change I made was that the survey to finish the experiment was
+conducted with the rest of the behavioral experiment, using jsPsych,
+instead of rerouting to Qualtrics.
 
 ### Analysis Plan
 
@@ -318,34 +314,21 @@ because the authors did not provide the code for the experiment or all
 of the text presented to participants -- they only provided the main
 instructions page.
 
-The last and likely most meaningful change is that the authors included
-bonuses based on performance on the Social Prediction Game -- my
-experiment does not currently include this aspect of the design. I am
-not currently sure whether I can incorporate these bonuses based on the
-logistical and financial limitations of this class, but am in contact
-with a TA to work this out. Not including bonuses will likely result in
-participants being less motivated to perform the task thoughtfully,
-which would lead to difference predictions being made.
+### Methods Addendum (Post Data Collection)
 
-<!-- ### Methods Addendum (Post Data Collection) -->
-
-<!-- You can comment this section out prior to final report with data -->
-
-<!-- collection. -->
-
-<!-- #### Actual Sample -->
+#### Actual Sample
 
 <!-- Sample size, demographics, data exclusions based on rules spelled out in -->
 
-<!-- analysis plan -->
-
-<!-- #### Differences from pre-data collection methods plan -->
-
-<!-- Any differences from what was described as the original plan, or “none”. -->
-
-## Results
-
-### Data preparation
+The final sample size was 48 people. This number is fewer than what was
+preregistered due to an increase in the expected task length which was,
+in error, not propogated to the participant cost calculation, increasing costs.
+As a result, instead of stopping at the preregistered
+75 participants, I stopped running participants when I hit my originally
+decided budget. As preregistered, I did not exclude any data because the
+original authors did not report that they did so -- instead I had
+comprehension checks at the beginning of the experiment which
+participants had to pass before continuing to the task. Some of the code from the confirmatory analysis section (the first chunk below) has been moved here because the analysis of sample size, age, and gender are dependent on its outputs.
 
 ```{python}
 ### Data Preparation
@@ -361,13 +344,10 @@ import glob
 
 #### Import data
 proj_dir = os.path.abspath('../')
-print(proj_dir)
 data_dir = os.path.join(proj_dir,'data/fulldata')
-print(data_dir)
 
 ##### Get a list of all CSV files in the folder
-all_files = glob.glob(os.path.join(data_dir, "*.csv"))
-print(f'The csv files are {all_files}')
+all_files = glob.glob(os.path.join(data_dir, "*-anon.csv"))
 
 ##### Get the number of CSV files in the folder
 num_participants = len(all_files)
@@ -388,13 +368,55 @@ print(f'There are {len(df['subjectID'].unique())} participants found')
 
 #### Data exclusion / filtering
 print('There is no data exclusion / filtering')
+```
 
+```{python}
+### Demographics
+demographics_df = (
+    df[df['task'] == 'demographics']
+    .assign(
+        age=lambda x: x['response'].apply(lambda v: int(json.loads(v)['age'])),
+        gender=lambda x: x['response'].apply(lambda v: json.loads(v)['gender'])
+    )
+    .groupby('subjectID', as_index=False)
+    .first()
+)
+
+#### Age
+print(f'Mean age: {round(demographics_df["age"].mean())}')
+
+#### Gender
+gender = demographics_df["gender"].value_counts().reset_index()
+print('Gender of Participants:')
+print(gender)
+```
+By contrast, the mean age in the original study was 35.4 and gender split was 95 males, 52 females, and 3 no response. My sample is about ten years older on average, and has a different, but more representative, gender split.
+
+#### Differences from pre-data collection methods plan
+
+<!-- Any differences from what was described as the original plan, or “none”. -->
+
+The only difference in methods post-data collection (besides the
+aforementioned sample size difference and movement of a code chunk) was the correction of a copy and
+paste error. From the original authors' analysis code, I accidentally
+copied over a t-test comparing performance against artificial strategies
+compared to random chance as opposed to comparing performance against
+all strategies compared to random chance, as I described in my
+preregistration and commented in my code. I corrected the error in the
+code below, but left the original, incorrect t-test commented out for
+transparency.
+
+## Results
+
+### Data preparation
+
+```{python}
 #### Prepare data for analysis - create columns etc.
 ##### Filter for rows which hold the responses to the social prediction game
 taskDat = df[df['task'] == 'socialPredictionGame']
 
 ##### Remove unnecessary columns
-cols = ['rt', 'time_elapsed', 'subjectID', 'studyID', 'sessionID', 'task', 'Matrix', 'S', 'T', 'R', 'P', 'GameType', 'choice', 'GivenAns', 'Player', 'PlayerType', 'CorrAns', 'confidence', 'ScoreNum', 'stimulus']
+cols = ['rt', 'time_elapsed', 'subjectID', 'studyID', 'sessionID', 'task', 'Matrix', 'S', 'T', 'R', 'P', 'GameType', 'choice', 'GivenAns', 'Player', 'PlayerType', 'CorrAns', 'confidence', 'ScoreNum', 'stimulus', 'time_on_trial']
 taskDat = taskDat[cols]
 
 ##### Examine df
@@ -413,7 +435,7 @@ taskDat[['Type', 'Variant']] = taskDat['Type_Total'].str.split('_', expand=True)
 ```
 
 ### Confirmatory analysis
-
+#### Statistical tests
 Here, I run the two aforementioned t-tests which examine whether 1)
 participants perform better than chance and 2) participants before
 better on human versus artificial strategies.
@@ -427,7 +449,10 @@ meanPerSubCondition = taskDat.groupby(['subID','Variant'], as_index=False)['Scor
 meanPerSubCondition.head()
 
 ## Run t-test comparing overall accuracy against random choice (50%)
-t_statistic, p_value = scipy.stats.ttest_1samp(meanPerSubCondition['inv'], .5)
+meanPerSub = taskDat.groupby('subID')['Score'].mean().values
+t_statistic, p_value = scipy.stats.ttest_1samp(meanPerSub, .5)
+# Previous, incorrect t-test:
+# t_statistic, p_value = scipy.stats.ttest_1samp(meanPerSubCondition['inv'], .5)
 print(f"T-statistic: {t_statistic:.3f}")
 print(f"P-value: {p_value:.3f}")
 
@@ -435,26 +460,30 @@ print(f"P-value: {p_value:.3f}")
 t_statistic, p_value = scipy.stats.ttest_rel(meanPerSubCondition['inv'],meanPerSubCondition['nat'])
 print(f"T-statistic: {t_statistic:.3f}")
 print(f"P-value: {p_value:.3f}")
-
 ```
 
-We fail to reject the null hypothesis for both t-tests. This is what we
-would expect no matter what the underlying truth is since I only have
-two participants for Pilot B. However, it is promising that both
-participants were more accurate against the human strategies than they
-were against the artificial ones.
+We fail to reject the null hypothesis for both t-tests. There is
+statistically significant evidence that participants performed better
+than random chance in the Social Prediction Game (*t*(47) = 5.21, *p* =
+\< .001) and that they performed better against the human strategies
+than against the artificial strategies (*t*(47) = -5.66, *p* = \<
+.001).
 
 #### Original graph versus graph from replication
 
 ![](original_results.png)
 
+Here, I only show a replication of the graph
+on the left because the graph on the right visualizes data from the
+authors' Study 2, which I chose not to replicate.
+
 ```{python}
 # Create Figure 2 Panel A (code provided by authors, with some small modifications)
 sns.set_context('poster')
-blockDat = (taskDat.groupby(['subID', 'Variant'], as_index=False)[['Confidence', 'Score']].mean())
+blockDat = (taskDat.groupby(['subID', 'Variant'],as_index=False)[['Confidence', 'Score']].mean())
 fig, ax = plt.subplots(1,1,figsize=[6,5])
 sns.barplot(data=blockDat,x='Variant',y='Score', ax=ax, errwidth = 3, capsize=.1,
-            order=['nat','inv'],alpha=0)
+            order=['nat','inv'],alpha=0, errcolor='red')
 sns.swarmplot(data=blockDat,x='Variant',y='Score', ax=ax,
             order=['nat','inv'], alpha=.3, color = 'k')
 ax.plot([-5,5],[.5,.5], 'k--', lw=2)
@@ -471,22 +500,88 @@ plt.subplots_adjust(left=0.25, bottom=0.3)
 plt.show()
 ```
 
+### Exploratory analysis
+#### Effect size of statistical tests
+```{python}
+# For one-sample t-test: overall performance vs. random chance
+x_bar = meanPerSub.mean()
+mu = 0.5
+sample_sd = np.std(meanPerSub, ddof=1)
+
+d_test1 = (x_bar - mu) / sample_sd
+
+print(f"Effect size for t-test comparing overall performance to random chance: {round(d_test1,2)}")
+
+# For paired-samples t-test: performance against human vs. artificial strategies
+differences = y = meanPerSubCondition['nat'] - meanPerSubCondition['inv']
+d_test2 = differences.mean() / differences.std(ddof=1)
+
+print(f"Effect size for t-test comparing performance against human vs. artifical strategies: {round(d_test2,2)}")
+```
+As we discussed in this class, effect sizes in the literature can sometimes be inflated relative to the true underlying effect sizes. For the t-test comparing overall performance to random chance I found an effect size of 0.75 while the original authors found an effect size of 1.00. Similarly, for the t-test comparing performance against human versus artificial strategies, I found an effect size of 0.82 while the original authors found an effect size of 1.80. While I found relatively strong effect sizes for both statistical tests, they were in fact both smaller than those found by the original authors.
+
+#### Time spent on trials
+```{python}
+### Average spent on trial per participant
+trial_time_df = (taskDat.groupby(['subID']).mean('time_on_trial')) / 1000
+plt.figure()
+plt.hist(trial_time_df['time_on_trial'], bins=20)
+plt.xlabel('Mean Time Per Trial (seconds)')
+plt.ylabel('# Participants')
+plt.title('Average Trial Time Per Participant')
+plt.xticks([5,10,15,20,25])
+plt.tight_layout()
+plt.show()
+
+### Overall average time spent on trials
+print(f'Overall average trial time: {round(trial_time_df["time_on_trial"].mean(), 2)} seconds')
+print(f'Overall median trial time: {round(trial_time_df["time_on_trial"].median(), 2)} seconds')
+
+### Shortest trial times
+shortest_times = trial_time_df['time_on_trial'].nsmallest(10)
+print('10 Shortest Average Trial Times')
+print(shortest_times)
+```
+
+Prior to running the study, I had concern that many participants would complete the trials
+without putting much thought into their answers, given the financial incentives of doing so. So as an exploratory analysis, I
+decided to explore trial completion time. The average amount of time
+spent on trials by participant is left-skewed, with a few participants
+having noticeably larger average trial times. The mean and median
+overall time spent per trial are 7.54 and 5.66 seconds, respectively.
+These times are larger than it would take to click through the trials as
+fast as possible. Nonetheless, a small number of participants do have
+questionably low average trial times: a higher performance-based bonus
+payment could be utilized in the future if this study were to be run
+again to provide a stronger financial incentive to think hard about one's answer.
+
 ## Discussion
 
 ### Summary of Replication Attempt
 
-Open the discussion section with a paragraph summarizing the primary
-result from the confirmatory analysis and the assessment of whether it
-replicated, partially replicated, or failed to replicate the original
-result.
+The primary result of the confirmatory analysis aligned with that of the
+original researchers: participants perform better than random chance on
+the Social Prediction Game, and perform better against human strategies
+than artificial strategies. Therefore, in order to predict behavior in
+this social task, participants learned the latent structure linking game
+incentives to choice -- a structure about which they held strong prior
+expectations. Accordingly, we see that visual pattern of the data in
+Figure 2a appears highly similar to that of the graph I generated to
+match it.
+
+However, effect size diminished in this replication. While they were still relatively large, Cohen's d calculated for both statistical tests replicated in this project were smaller than those found by the original authors.
+
+Overall, the experiment I chose from the original paper
+replicated (albeit with smaller effect sizes). However, confidence in the results presented here are limited in that, due to budget constraints, I did not meet my
+pregistered sample size .
 
 ### Commentary
 
-Add open-ended commentary (if any) reflecting (a) insights from
-follow-up exploratory analysis, (b) assessment of the meaning of the
-replication (or not) - e.g., for a failure to replicate, are the
-differences between original and present study ones that definitely,
-plausibly, or are unlikely to have been moderators of the result, and
-(c) discussion of any objections or challenges raised by the current and
-original authors about the replication attempt. None of these need to be
-long.
+Finally, for transparency, I would like to note a mistake I made in the
+preregistration process. I set up my preregistration but then didn't
+realize I never pressed the final submit button until after I already
+started collecting a few participants in my full sample (it was my first
+time creating a preregistration in OSF). However, no changes were made
+to the preregistration in this time. In the future, I will check that my
+registration is viewable when logged out of my OSF account before I
+start collecting a full sample.
