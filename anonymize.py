@@ -20,27 +20,14 @@ cols_to_drop = [
 
 
 def anonymize_data_file(file_path):
-    """
-    Drop all identifying information from a data file.
-    This would be way easier with pandas, but that would add a dependency.
-    """
-    indices_to_drop = []
-    with open(file_path, "r") as f_in:
-        reader = csv.reader(f_in)
-        for header in reader:
-            break
-        for i, colname in enumerate(header):
-            if colname in cols_to_drop:
-                indices_to_drop.append(i)
+    df = pd.read_csv(file_path)
 
-        anon_file_path = file_path.replace(".csv", "-anon.csv")
-        with open(anon_file_path, "w") as f_out:
-            f_in.seek(0)
-            for row in reader:
-                cols_to_keep = [
-                    row[i] for i in range(len(row)) if i not in indices_to_drop
-                ]
-                f_out.write(",".join(cols_to_keep) + "\n")
+    # Drop only columns that actually exist
+    cols_present = [c for c in cols_to_drop if c in df.columns]
+    df = df.drop(columns=cols_present)
+
+    anon_file_path = file_path.replace(".csv", "-anon.csv")
+    df.to_csv(anon_file_path, index=False)
 
 
 def get_raw_data_files(root_dir):

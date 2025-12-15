@@ -1,472 +1,472 @@
 view_history,rt,trial_type,trial_index,plugin_version,time_elapsed,subjectID,studyID,sessionID,overallBonusPoints,task,response,question_order,success,Matrix,S,T,R,P,GameType,choice,GivenAns,Player,PlayerType,CorrAns,confidence,ScoreNum,time_on_trial,stimulus
-[{"page_index":0,"viewing_time":17215},{"page_index":1,"viewing_time":2162}],19377,instructions,0,2.1.0,19386,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
-[{"page_index":0,"viewing_time":129255}],129255,instructions,1,2.1.0,148644,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
-[{"page_index":0,"viewing_time":3120}],3120,instructions,2,2.1.0,151766,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
-,8441,survey-multi-choice,3,null,160210,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,comprehensionCheck,{"task":"Choose the option the anonymized participant chose","incentive":"No—they received the same payment regardless of their performance"},[0,1],,,,,,,,,,,,,,,,
-[{"page_index":0,"viewing_time":24158}],24158,instructions,4,2.1.0,186504,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
-[{"page_index":0,"viewing_time":1076}],1076,instructions,5,2.1.0,187582,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
-,3702,survey-multi-choice,6,null,191285,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,comprehensionCheck,{"task":"Choose the option the anonymized participant chose","incentive":"Yes—they received bonuses based on their performance"},[0,1],,,,,,,,,,,,,,,,
-,1107,fullscreen,7,2.1.0,193400,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,true,,,,,,,,,,,,,,,
-[{"page_index":0,"viewing_time":83026}],83026,instructions,8,2.1.0,276428,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
-,,html-keyboard-response,9,2.0.0,348271,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,playOwnGame,,,,{"R":10,"P":5,"S":0,"T":15},0,15,10,5,PD,Red,coop,,,,,,,
-,,html-keyboard-response,10,2.0.0,576953,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,playOwnGame,,,,{"R":10,"P":5,"S":10,"T":12},10,12,10,5,SG,Red,coop,,,,,,,
-,,html-keyboard-response,11,2.0.0,903708,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,playOwnGame,,,,{"R":10,"P":5,"S":3,"T":5},3,5,10,5,SH,Blue,def,,,,,,,
-,,html-keyboard-response,12,2.0.0,910907,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,playOwnGame,,,,{"R":10,"P":5,"S":7,"T":8},7,8,10,5,HG,Red,coop,,,,,,,
-[{"page_index":0,"viewing_time":1666}],1666,instructions,13,2.1.0,912575,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
-,,html-keyboard-response,14,2.0.0,1037163,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":12},7,12,10,5,SG,Blue,def,D.T.,opt_inv,coop,7,0,124585,
-,1910,html-keyboard-response,15,2.0.0,1039075,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 0 points.</p>
+"[{""page_index"":0,""viewing_time"":17215},{""page_index"":1,""viewing_time"":2162}]",19377.0,instructions,0,2.1.0,19386,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
+"[{""page_index"":0,""viewing_time"":129255}]",129255.0,instructions,1,2.1.0,148644,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
+"[{""page_index"":0,""viewing_time"":3120}]",3120.0,instructions,2,2.1.0,151766,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
+,8441.0,survey-multi-choice,3,,160210,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,comprehensionCheck,"{""task"":""Choose the option the anonymized participant chose"",""incentive"":""No—they received the same payment regardless of their performance""}","[0,1]",,,,,,,,,,,,,,,,
+"[{""page_index"":0,""viewing_time"":24158}]",24158.0,instructions,4,2.1.0,186504,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
+"[{""page_index"":0,""viewing_time"":1076}]",1076.0,instructions,5,2.1.0,187582,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
+,3702.0,survey-multi-choice,6,,191285,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,comprehensionCheck,"{""task"":""Choose the option the anonymized participant chose"",""incentive"":""Yes—they received bonuses based on their performance""}","[0,1]",,,,,,,,,,,,,,,,
+,1107.0,fullscreen,7,2.1.0,193400,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,True,,,,,,,,,,,,,,,
+"[{""page_index"":0,""viewing_time"":83026}]",83026.0,instructions,8,2.1.0,276428,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
+,,html-keyboard-response,9,2.0.0,348271,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,playOwnGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":15}",0.0,15.0,10.0,5.0,PD,Red,coop,,,,,,,
+,,html-keyboard-response,10,2.0.0,576953,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,playOwnGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":12}",10.0,12.0,10.0,5.0,SG,Red,coop,,,,,,,
+,,html-keyboard-response,11,2.0.0,903708,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,playOwnGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":5}",3.0,5.0,10.0,5.0,SH,Blue,def,,,,,,,
+,,html-keyboard-response,12,2.0.0,910907,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,playOwnGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":8}",7.0,8.0,10.0,5.0,HG,Red,coop,,,,,,,
+"[{""page_index"":0,""viewing_time"":1666}]",1666.0,instructions,13,2.1.0,912575,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
+,,html-keyboard-response,14,2.0.0,1037163,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":12}",7.0,12.0,10.0,5.0,SG,Blue,def,D.T.,opt_inv,coop,7.0,0.0,124585.0,
+,1910.0,html-keyboard-response,15,2.0.0,1039075,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 0 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,16,2.0.0,1072540,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":5},0,5,10,5,SH,Blue,def,D.T.,opt_inv,def,8,1,33464,
-,1804,html-keyboard-response,17,2.0.0,1074345,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 1 points.</p>
+                    "
+,,html-keyboard-response,16,2.0.0,1072540,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":5}",0.0,5.0,10.0,5.0,SH,Blue,def,D.T.,opt_inv,def,8.0,1.0,33464.0,
+,1804.0,html-keyboard-response,17,2.0.0,1074345,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 1 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,18,2.0.0,1138385,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":15},0,15,10,5,PD,Blue,def,D.T.,opt_inv,coop,5,0,64039,
-,1518,html-keyboard-response,19,2.0.0,1139904,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 1 points.</p>
-                        <p> Press any key to continue. </p>
-                    </div>
-                    
-,,html-keyboard-response,20,2.0.0,1221923,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":8},3,8,10,5,SH,Blue,def,D.T.,opt_inv,def,8,1,82019,
-,1453,html-keyboard-response,21,2.0.0,1223378,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 2 points.</p>
-                        <p> Press any key to continue. </p>
+                    "
+,,html-keyboard-response,18,2.0.0,1138385,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":15}",0.0,15.0,10.0,5.0,PD,Blue,def,D.T.,opt_inv,coop,5.0,0.0,64039.0,
+,1518.0,html-keyboard-response,19,2.0.0,1139904,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 1 points.</p>
+                        <p> Press any key to continue. </p>
+                    </div>
+                    "
+,,html-keyboard-response,20,2.0.0,1221923,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":8}",3.0,8.0,10.0,5.0,SH,Blue,def,D.T.,opt_inv,def,8.0,1.0,82019.0,
+,1453.0,html-keyboard-response,21,2.0.0,1223378,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 2 points.</p>
+                        <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,22,2.0.0,1244117,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":12},10,12,10,5,SG,Blue,def,D.T.,opt_inv,coop,4,0,20739,
-,1440,html-keyboard-response,23,2.0.0,1245559,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 2 points.</p>
-                        <p> Press any key to continue. </p>
+                    "
+,,html-keyboard-response,22,2.0.0,1244117,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":12}",10.0,12.0,10.0,5.0,SG,Blue,def,D.T.,opt_inv,coop,4.0,0.0,20739.0,
+,1440.0,html-keyboard-response,23,2.0.0,1245559,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 2 points.</p>
+                        <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,24,2.0.0,1304238,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":8},10,8,10,5,HG,Blue,def,D.T.,opt_inv,def,9,1,58678,
-,1141,html-keyboard-response,25,2.0.0,1305381,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 3 points.</p>
-                        <p> Press any key to continue. </p>
+                    "
+,,html-keyboard-response,24,2.0.0,1304238,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":8}",10.0,8.0,10.0,5.0,HG,Blue,def,D.T.,opt_inv,def,9.0,1.0,58678.0,
+,1141.0,html-keyboard-response,25,2.0.0,1305381,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 3 points.</p>
+                        <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,26,2.0.0,1309617,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":8},0,8,10,5,SH,Red,coop,D.T.,opt_inv,def,5,0,4235,
-,771,html-keyboard-response,27,2.0.0,1310390,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 3 points.</p>
+                    "
+,,html-keyboard-response,26,2.0.0,1309617,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":8}",0.0,8.0,10.0,5.0,SH,Red,coop,D.T.,opt_inv,def,5.0,0.0,4235.0,
+,771.0,html-keyboard-response,27,2.0.0,1310390,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 3 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,28,2.0.0,1378567,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":5},3,5,10,5,SH,Blue,def,D.T.,opt_inv,def,7,1,68177,
-,1751,html-keyboard-response,29,2.0.0,1380319,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 4 points.</p>
+                    "
+,,html-keyboard-response,28,2.0.0,1378567,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":5}",3.0,5.0,10.0,5.0,SH,Blue,def,D.T.,opt_inv,def,7.0,1.0,68177.0,
+,1751.0,html-keyboard-response,29,2.0.0,1380319,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 4 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,30,2.0.0,1439273,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":15},7,15,10,5,SG,Blue,def,D.T.,opt_inv,coop,4,0,58953,
-,2804,html-keyboard-response,31,2.0.0,1442078,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 4 points.</p>
+                    "
+,,html-keyboard-response,30,2.0.0,1439273,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":15}",7.0,15.0,10.0,5.0,SG,Blue,def,D.T.,opt_inv,coop,4.0,0.0,58953.0,
+,2804.0,html-keyboard-response,31,2.0.0,1442078,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 4 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,32,2.0.0,1511782,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":15},3,15,10,5,PD,Red,coop,D.T.,opt_inv,coop,5,1,69704,
-,1084,html-keyboard-response,33,2.0.0,1512869,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 5 points.</p>
+                    "
+,,html-keyboard-response,32,2.0.0,1511782,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":15}",3.0,15.0,10.0,5.0,PD,Red,coop,D.T.,opt_inv,coop,5.0,1.0,69704.0,
+,1084.0,html-keyboard-response,33,2.0.0,1512869,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 5 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,34,2.0.0,1589701,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":5},7,5,10,5,HG,Red,coop,D.T.,opt_inv,def,5,0,76833,
-,972,html-keyboard-response,35,2.0.0,1590675,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 5 points.</p>
+                    "
+,,html-keyboard-response,34,2.0.0,1589701,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":5}",7.0,5.0,10.0,5.0,HG,Red,coop,D.T.,opt_inv,def,5.0,0.0,76833.0,
+,972.0,html-keyboard-response,35,2.0.0,1590675,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 5 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,36,2.0.0,1633992,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":12},3,12,10,5,PD,Red,coop,D.T.,opt_inv,coop,4,1,43316,
-,790,html-keyboard-response,37,2.0.0,1634783,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 6 points.</p>
+                    "
+,,html-keyboard-response,36,2.0.0,1633992,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":12}",3.0,12.0,10.0,5.0,PD,Red,coop,D.T.,opt_inv,coop,4.0,1.0,43316.0,
+,790.0,html-keyboard-response,37,2.0.0,1634783,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 6 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,38,2.0.0,1649363,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":12},0,12,10,5,PD,Blue,def,D.T.,opt_inv,coop,4,0,14580,
-,752,html-keyboard-response,39,2.0.0,1650116,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 6 points.</p>
+                    "
+,,html-keyboard-response,38,2.0.0,1649363,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":12}",0.0,12.0,10.0,5.0,PD,Blue,def,D.T.,opt_inv,coop,4.0,0.0,14580.0,
+,752.0,html-keyboard-response,39,2.0.0,1650116,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 6 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,40,2.0.0,1685167,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":5},10,5,10,5,HG,Blue,def,D.T.,opt_inv,def,3,1,35051,
-,24874,html-keyboard-response,41,2.0.0,1710041,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowDown,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 7 points.</p>
+                    "
+,,html-keyboard-response,40,2.0.0,1685167,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":5}",10.0,5.0,10.0,5.0,HG,Blue,def,D.T.,opt_inv,def,3.0,1.0,35051.0,
+,24874.0,html-keyboard-response,41,2.0.0,1710041,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowDown,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 7 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,42,2.0.0,1744908,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":8},7,8,10,5,HG,Red,coop,D.T.,opt_inv,def,4,0,34865,
-,594,html-keyboard-response,43,2.0.0,1745503,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 7 points.</p>
+                    "
+,,html-keyboard-response,42,2.0.0,1744908,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":8}",7.0,8.0,10.0,5.0,HG,Red,coop,D.T.,opt_inv,def,4.0,0.0,34865.0,
+,594.0,html-keyboard-response,43,2.0.0,1745503,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 7 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,44,2.0.0,1751002,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":15},10,15,10,5,SG,Blue,def,D.T.,opt_inv,coop,7,0,5498,
-,733,html-keyboard-response,45,2.0.0,1751738,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowDown,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 7 points.</p>
+                    "
+,,html-keyboard-response,44,2.0.0,1751002,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":15}",10.0,15.0,10.0,5.0,SG,Blue,def,D.T.,opt_inv,coop,7.0,0.0,5498.0,
+,733.0,html-keyboard-response,45,2.0.0,1751738,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowDown,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 7 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,7333,survey-html-form,46,2.1.0,1759071,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,strategyPrediction,{"strategyPrediction":"i have no idea"},,,,,,,,,,,,,,,,,
-[{"page_index":0,"viewing_time":2470}],2470,instructions,47,2.1.0,1761543,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
-,,html-keyboard-response,48,2.0.0,1774990,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":8},10,8,10,5,HG,Purple,coop,E.B.,opt_nat,coop,7,1,13447,
-,1203,html-keyboard-response,49,2.0.0,1776195,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowDown,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 8 points.</p>
+                    "
+,7333.0,survey-html-form,46,2.1.0,1759071,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,strategyPrediction,"{""strategyPrediction"":""i have no idea""}",,,,,,,,,,,,,,,,,
+"[{""page_index"":0,""viewing_time"":2470}]",2470.0,instructions,47,2.1.0,1761543,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
+,,html-keyboard-response,48,2.0.0,1774990,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":8}",10.0,8.0,10.0,5.0,HG,Purple,coop,E.B.,opt_nat,coop,7.0,1.0,13447.0,
+,1203.0,html-keyboard-response,49,2.0.0,1776195,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowDown,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 8 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,50,2.0.0,1797085,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":12},7,12,10,5,SG,Purple,coop,E.B.,opt_nat,def,6,0,20890,
-,754,html-keyboard-response,51,2.0.0,1797842,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 8 points.</p>
+                    "
+,,html-keyboard-response,50,2.0.0,1797085,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":12}",7.0,12.0,10.0,5.0,SG,Purple,coop,E.B.,opt_nat,def,6.0,0.0,20890.0,
+,754.0,html-keyboard-response,51,2.0.0,1797842,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 8 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,52,2.0.0,1803090,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":12},0,12,10,5,PD,Green,def,E.B.,opt_nat,def,4,1,5248,
-,270,html-keyboard-response,53,2.0.0,1803361,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 9 points.</p>
+                    "
+,,html-keyboard-response,52,2.0.0,1803090,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":12}",0.0,12.0,10.0,5.0,PD,Green,def,E.B.,opt_nat,def,4.0,1.0,5248.0,
+,270.0,html-keyboard-response,53,2.0.0,1803361,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 9 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,54,2.0.0,1849897,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":5},3,5,10,5,SH,Purple,coop,E.B.,opt_nat,coop,8,1,46535,
-,838,html-keyboard-response,55,2.0.0,1850737,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 10 points.</p>
+                    "
+,,html-keyboard-response,54,2.0.0,1849897,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":5}",3.0,5.0,10.0,5.0,SH,Purple,coop,E.B.,opt_nat,coop,8.0,1.0,46535.0,
+,838.0,html-keyboard-response,55,2.0.0,1850737,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 10 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,56,2.0.0,1953085,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":15},7,15,10,5,SG,Purple,coop,E.B.,opt_nat,def,7,0,102348,
-,1332,html-keyboard-response,57,2.0.0,1954419,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 10 points.</p>
+                    "
+,,html-keyboard-response,56,2.0.0,1953085,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":15}",7.0,15.0,10.0,5.0,SG,Purple,coop,E.B.,opt_nat,def,7.0,0.0,102348.0,
+,1332.0,html-keyboard-response,57,2.0.0,1954419,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 10 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,58,2.0.0,1981796,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":5},0,5,10,5,SH,Purple,coop,E.B.,opt_nat,coop,10,1,27377,
-,1006,html-keyboard-response,59,2.0.0,1982802,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 11 points.</p>
+                    "
+,,html-keyboard-response,58,2.0.0,1981796,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":5}",0.0,5.0,10.0,5.0,SH,Purple,coop,E.B.,opt_nat,coop,10.0,1.0,27377.0,
+,1006.0,html-keyboard-response,59,2.0.0,1982802,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 11 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,60,2.0.0,1994676,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":5},10,5,10,5,HG,Green,def,E.B.,opt_nat,coop,8,0,11873,
-,409,html-keyboard-response,61,2.0.0,1995087,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 11 points.</p>
+                    "
+,,html-keyboard-response,60,2.0.0,1994676,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":5}",10.0,5.0,10.0,5.0,HG,Green,def,E.B.,opt_nat,coop,8.0,0.0,11873.0,
+,409.0,html-keyboard-response,61,2.0.0,1995087,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 11 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,62,2.0.0,2013447,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":5},7,5,10,5,HG,Purple,coop,E.B.,opt_nat,coop,8,1,18361,
-,910,html-keyboard-response,63,2.0.0,2014359,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 12 points.</p>
+                    "
+,,html-keyboard-response,62,2.0.0,2013447,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":5}",7.0,5.0,10.0,5.0,HG,Purple,coop,E.B.,opt_nat,coop,8.0,1.0,18361.0,
+,910.0,html-keyboard-response,63,2.0.0,2014359,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 12 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,64,2.0.0,2022229,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":12},10,12,10,5,SG,Green,def,E.B.,opt_nat,def,9,1,7870,
-,84,html-keyboard-response,65,2.0.0,2022316,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 13 points.</p>
+                    "
+,,html-keyboard-response,64,2.0.0,2022229,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":12}",10.0,12.0,10.0,5.0,SG,Green,def,E.B.,opt_nat,def,9.0,1.0,7870.0,
+,84.0,html-keyboard-response,65,2.0.0,2022316,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 13 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,66,2.0.0,2029544,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":15},3,15,10,5,PD,Purple,coop,E.B.,opt_nat,def,8,0,7229,
-,230,html-keyboard-response,67,2.0.0,2029775,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 13 points.</p>
+                    "
+,,html-keyboard-response,66,2.0.0,2029544,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":15}",3.0,15.0,10.0,5.0,PD,Purple,coop,E.B.,opt_nat,def,8.0,0.0,7229.0,
+,230.0,html-keyboard-response,67,2.0.0,2029775,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 13 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,68,2.0.0,2035078,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":8},3,8,10,5,SH,Purple,coop,E.B.,opt_nat,coop,10,1,5302,
-,153,html-keyboard-response,69,2.0.0,2035232,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 14 points.</p>
+                    "
+,,html-keyboard-response,68,2.0.0,2035078,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":8}",3.0,8.0,10.0,5.0,SH,Purple,coop,E.B.,opt_nat,coop,10.0,1.0,5302.0,
+,153.0,html-keyboard-response,69,2.0.0,2035232,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 14 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,70,2.0.0,2044766,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":12},3,12,10,5,PD,Purple,coop,E.B.,opt_nat,def,8,0,9533,
-,71,html-keyboard-response,71,2.0.0,2044838,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 14 points.</p>
+                    "
+,,html-keyboard-response,70,2.0.0,2044766,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":12}",3.0,12.0,10.0,5.0,PD,Purple,coop,E.B.,opt_nat,def,8.0,0.0,9533.0,
+,71.0,html-keyboard-response,71,2.0.0,2044838,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 14 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,72,2.0.0,2049316,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":8},7,8,10,5,HG,Purple,coop,E.B.,opt_nat,coop,10,1,4478,
-,120,html-keyboard-response,73,2.0.0,2049437,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 15 points.</p>
+                    "
+,,html-keyboard-response,72,2.0.0,2049316,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":8}",7.0,8.0,10.0,5.0,HG,Purple,coop,E.B.,opt_nat,coop,10.0,1.0,4478.0,
+,120.0,html-keyboard-response,73,2.0.0,2049437,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 15 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,74,2.0.0,2054981,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":15},10,15,10,5,SG,Green,def,E.B.,opt_nat,def,6,1,5543,
-,172,html-keyboard-response,75,2.0.0,2055152,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 16 points.</p>
+                    "
+,,html-keyboard-response,74,2.0.0,2054981,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":15}",10.0,15.0,10.0,5.0,SG,Green,def,E.B.,opt_nat,def,6.0,1.0,5543.0,
+,172.0,html-keyboard-response,75,2.0.0,2055152,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 16 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,76,2.0.0,2060431,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":15},0,15,10,5,PD,Purple,coop,E.B.,opt_nat,def,8,0,5278,
-,283,html-keyboard-response,77,2.0.0,2060715,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 16 points.</p>
+                    "
+,,html-keyboard-response,76,2.0.0,2060431,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":15}",0.0,15.0,10.0,5.0,PD,Purple,coop,E.B.,opt_nat,def,8.0,0.0,5278.0,
+,283.0,html-keyboard-response,77,2.0.0,2060715,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 16 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,78,2.0.0,2077410,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":8},0,8,10,5,SH,Purple,coop,E.B.,opt_nat,coop,10,1,16695,
-,117,html-keyboard-response,79,2.0.0,2077529,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 17 points.</p>
+                    "
+,,html-keyboard-response,78,2.0.0,2077410,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":8}",0.0,8.0,10.0,5.0,SH,Purple,coop,E.B.,opt_nat,coop,10.0,1.0,16695.0,
+,117.0,html-keyboard-response,79,2.0.0,2077529,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 17 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,16112,survey-html-form,80,2.1.0,2093641,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,strategyPrediction,{"strategyPrediction":"leaving with at least 10 points"},,,,,,,,,,,,,,,,,
-[{"page_index":0,"viewing_time":1272}],1272,instructions,81,2.1.0,2094912,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
-,,html-keyboard-response,82,2.0.0,2102880,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":5},7,5,10,5,HG,Blue,coop,F.A.,pess_nat,coop,9,1,7967,
-,404,html-keyboard-response,83,2.0.0,2103284,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 18 points.</p>
+                    "
+,16112.0,survey-html-form,80,2.1.0,2093641,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,strategyPrediction,"{""strategyPrediction"":""leaving with at least 10 points""}",,,,,,,,,,,,,,,,,
+"[{""page_index"":0,""viewing_time"":1272}]",1272.0,instructions,81,2.1.0,2094912,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
+,,html-keyboard-response,82,2.0.0,2102880,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":5}",7.0,5.0,10.0,5.0,HG,Blue,coop,F.A.,pess_nat,coop,9.0,1.0,7967.0,
+,404.0,html-keyboard-response,83,2.0.0,2103284,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 18 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,84,2.0.0,2109289,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":15},10,15,10,5,SG,Blue,coop,F.A.,pess_nat,coop,7,1,6005,
-,450,html-keyboard-response,85,2.0.0,2109741,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 19 points.</p>
+                    "
+,,html-keyboard-response,84,2.0.0,2109289,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":15}",10.0,15.0,10.0,5.0,SG,Blue,coop,F.A.,pess_nat,coop,7.0,1.0,6005.0,
+,450.0,html-keyboard-response,85,2.0.0,2109741,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowLeft,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 19 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,86,2.0.0,2226454,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":8},7,8,10,5,HG,Blue,coop,F.A.,pess_nat,coop,10,1,116711,
-,640,html-keyboard-response,87,2.0.0,2227095,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 20 points.</p>
+                    "
+,,html-keyboard-response,86,2.0.0,2226454,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":8}",7.0,8.0,10.0,5.0,HG,Blue,coop,F.A.,pess_nat,coop,10.0,1.0,116711.0,
+,640.0,html-keyboard-response,87,2.0.0,2227095,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 20 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,88,2.0.0,2247747,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":5},10,5,10,5,HG,Blue,coop,F.A.,pess_nat,coop,10,1,20651,
-,797,html-keyboard-response,89,2.0.0,2248545,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 21 points.</p>
+                    "
+,,html-keyboard-response,88,2.0.0,2247747,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":5}",10.0,5.0,10.0,5.0,HG,Blue,coop,F.A.,pess_nat,coop,10.0,1.0,20651.0,
+,797.0,html-keyboard-response,89,2.0.0,2248545,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 21 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,90,2.0.0,2256133,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":12},3,12,10,5,PD,Blue,coop,F.A.,pess_nat,def,9,0,7587,
-,749,html-keyboard-response,91,2.0.0,2256882,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 21 points.</p>
+                    "
+,,html-keyboard-response,90,2.0.0,2256133,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":12}",3.0,12.0,10.0,5.0,PD,Blue,coop,F.A.,pess_nat,def,9.0,0.0,7587.0,
+,749.0,html-keyboard-response,91,2.0.0,2256882,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 21 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,92,2.0.0,2264646,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":8},0,8,10,5,SH,Blue,coop,F.A.,pess_nat,def,9,0,7762,
-,874,html-keyboard-response,93,2.0.0,2265520,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 21 points.</p>
+                    "
+,,html-keyboard-response,92,2.0.0,2264646,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":8}",0.0,8.0,10.0,5.0,SH,Blue,coop,F.A.,pess_nat,def,9.0,0.0,7762.0,
+,874.0,html-keyboard-response,93,2.0.0,2265520,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 21 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,94,2.0.0,2329485,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":12},0,12,10,5,PD,Blue,coop,F.A.,pess_nat,def,9,0,63963,
-,859,html-keyboard-response,95,2.0.0,2330345,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 21 points.</p>
+                    "
+,,html-keyboard-response,94,2.0.0,2329485,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":12}",0.0,12.0,10.0,5.0,PD,Blue,coop,F.A.,pess_nat,def,9.0,0.0,63963.0,
+,859.0,html-keyboard-response,95,2.0.0,2330345,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 21 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,96,2.0.0,2346743,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":8},3,8,10,5,SH,Blue,coop,F.A.,pess_nat,def,8,0,16398,
-,810,html-keyboard-response,97,2.0.0,2347554,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 21 points.</p>
+                    "
+,,html-keyboard-response,96,2.0.0,2346743,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":8}",3.0,8.0,10.0,5.0,SH,Blue,coop,F.A.,pess_nat,def,8.0,0.0,16398.0,
+,810.0,html-keyboard-response,97,2.0.0,2347554,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 21 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,98,2.0.0,2363444,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":5},3,5,10,5,SH,Blue,coop,F.A.,pess_nat,def,9,0,15889,
-,749,html-keyboard-response,99,2.0.0,2364193,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 21 points.</p>
+                    "
+,,html-keyboard-response,98,2.0.0,2363444,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":5}",3.0,5.0,10.0,5.0,SH,Blue,coop,F.A.,pess_nat,def,9.0,0.0,15889.0,
+,749.0,html-keyboard-response,99,2.0.0,2364193,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 21 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,100,2.0.0,2369620,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":15},0,15,10,5,PD,Green,def,F.A.,pess_nat,def,8,1,5426,
-,891,html-keyboard-response,101,2.0.0,2370512,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 22 points.</p>
+                    "
+,,html-keyboard-response,100,2.0.0,2369620,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":15}",0.0,15.0,10.0,5.0,PD,Green,def,F.A.,pess_nat,def,8.0,1.0,5426.0,
+,891.0,html-keyboard-response,101,2.0.0,2370512,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 22 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,102,2.0.0,2378407,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":8},10,8,10,5,HG,Blue,coop,F.A.,pess_nat,coop,9,1,7894,
-,789,html-keyboard-response,103,2.0.0,2379198,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 23 points.</p>
+                    "
+,,html-keyboard-response,102,2.0.0,2378407,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":8}",10.0,8.0,10.0,5.0,HG,Blue,coop,F.A.,pess_nat,coop,9.0,1.0,7894.0,
+,789.0,html-keyboard-response,103,2.0.0,2379198,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 23 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,104,2.0.0,2386778,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":5},0,5,10,5,SH,Blue,coop,F.A.,pess_nat,def,6,0,7580,
-,705,html-keyboard-response,105,2.0.0,2387486,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 23 points.</p>
+                    "
+,,html-keyboard-response,104,2.0.0,2386778,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":5}",0.0,5.0,10.0,5.0,SH,Blue,coop,F.A.,pess_nat,def,6.0,0.0,7580.0,
+,705.0,html-keyboard-response,105,2.0.0,2387486,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 23 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,106,2.0.0,2463328,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":12},7,12,10,5,SG,Green,def,F.A.,pess_nat,coop,8,0,75842,
-,686,html-keyboard-response,107,2.0.0,2464015,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 23 points.</p>
+                    "
+,,html-keyboard-response,106,2.0.0,2463328,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":12}",7.0,12.0,10.0,5.0,SG,Green,def,F.A.,pess_nat,coop,8.0,0.0,75842.0,
+,686.0,html-keyboard-response,107,2.0.0,2464015,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 23 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,108,2.0.0,2474164,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":15},7,15,10,5,SG,Blue,coop,F.A.,pess_nat,coop,6,1,10147,
-,741,html-keyboard-response,109,2.0.0,2474906,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 24 points.</p>
+                    "
+,,html-keyboard-response,108,2.0.0,2474164,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":15}",7.0,15.0,10.0,5.0,SG,Blue,coop,F.A.,pess_nat,coop,6.0,1.0,10147.0,
+,741.0,html-keyboard-response,109,2.0.0,2474906,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 24 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,110,2.0.0,2539244,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":15},3,15,10,5,PD,Blue,coop,F.A.,pess_nat,def,8,0,64339,
-,871,html-keyboard-response,111,2.0.0,2540116,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 24 points.</p>
+                    "
+,,html-keyboard-response,110,2.0.0,2539244,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":15}",3.0,15.0,10.0,5.0,PD,Blue,coop,F.A.,pess_nat,def,8.0,0.0,64339.0,
+,871.0,html-keyboard-response,111,2.0.0,2540116,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 24 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,112,2.0.0,2551281,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":12},10,12,10,5,SG,Blue,coop,F.A.,pess_nat,coop,6,1,11164,
-,922,html-keyboard-response,113,2.0.0,2552203,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 25 points.</p>
+                    "
+,,html-keyboard-response,112,2.0.0,2551281,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":12}",10.0,12.0,10.0,5.0,SG,Blue,coop,F.A.,pess_nat,coop,6.0,1.0,11164.0,
+,922.0,html-keyboard-response,113,2.0.0,2552203,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 25 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,14366,survey-html-form,114,2.1.0,2566571,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,strategyPrediction,{"strategyPrediction":"making sure their opponent gained as few points as possible"},,,,,,,,,,,,,,,,,
-[{"page_index":0,"viewing_time":1470}],1470,instructions,115,2.1.0,2568042,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
-,,html-keyboard-response,116,2.0.0,2577536,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":15},10,15,10,5,SG,Purple,def,G.P.,pess_inv,def,8,1,9494,
-,1841,html-keyboard-response,117,2.0.0,2579379,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 26 points.</p>
+                    "
+,14366.0,survey-html-form,114,2.1.0,2566571,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,strategyPrediction,"{""strategyPrediction"":""making sure their opponent gained as few points as possible""}",,,,,,,,,,,,,,,,,
+"[{""page_index"":0,""viewing_time"":1470}]",1470.0,instructions,115,2.1.0,2568042,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,,,,,,,,,,,,,,,,,,,
+,,html-keyboard-response,116,2.0.0,2577536,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":15}",10.0,15.0,10.0,5.0,SG,Purple,def,G.P.,pess_inv,def,8.0,1.0,9494.0,
+,1841.0,html-keyboard-response,117,2.0.0,2579379,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 26 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,118,2.0.0,2600388,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":15},0,15,10,5,PD,Purple,def,G.P.,pess_inv,coop,5,0,21010,
-,673,html-keyboard-response,119,2.0.0,2601063,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 26 points.</p>
+                    "
+,,html-keyboard-response,118,2.0.0,2600388,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":15}",0.0,15.0,10.0,5.0,PD,Purple,def,G.P.,pess_inv,coop,5.0,0.0,21010.0,
+,673.0,html-keyboard-response,119,2.0.0,2601063,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 26 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,120,2.0.0,2605327,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":5},3,5,10,5,SH,Red,coop,G.P.,pess_inv,coop,10,1,4265,
-,404,html-keyboard-response,121,2.0.0,2605733,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 27 points.</p>
+                    "
+,,html-keyboard-response,120,2.0.0,2605327,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":5}",3.0,5.0,10.0,5.0,SH,Red,coop,G.P.,pess_inv,coop,10.0,1.0,4265.0,
+,404.0,html-keyboard-response,121,2.0.0,2605733,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 27 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,122,2.0.0,2609597,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":8},3,8,10,5,SH,Red,coop,G.P.,pess_inv,coop,10,1,3863,
-,283,html-keyboard-response,123,2.0.0,2609881,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 28 points.</p>
+                    "
+,,html-keyboard-response,122,2.0.0,2609597,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":8}",3.0,8.0,10.0,5.0,SH,Red,coop,G.P.,pess_inv,coop,10.0,1.0,3863.0,
+,283.0,html-keyboard-response,123,2.0.0,2609881,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 28 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,124,2.0.0,2613749,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":5},10,5,10,5,HG,Red,coop,G.P.,pess_inv,def,10,0,3867,
-,205,html-keyboard-response,125,2.0.0,2613955,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 28 points.</p>
+                    "
+,,html-keyboard-response,124,2.0.0,2613749,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":5}",10.0,5.0,10.0,5.0,HG,Red,coop,G.P.,pess_inv,def,10.0,0.0,3867.0,
+,205.0,html-keyboard-response,125,2.0.0,2613955,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 28 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,126,2.0.0,2619631,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":12},0,12,10,5,PD,Purple,def,G.P.,pess_inv,coop,4,0,5676,
-,160,html-keyboard-response,127,2.0.0,2619793,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 28 points.</p>
+                    "
+,,html-keyboard-response,126,2.0.0,2619631,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":12}",0.0,12.0,10.0,5.0,PD,Purple,def,G.P.,pess_inv,coop,4.0,0.0,5676.0,
+,160.0,html-keyboard-response,127,2.0.0,2619793,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 28 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,128,2.0.0,2624212,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":12},10,12,10,5,SG,Red,coop,G.P.,pess_inv,def,7,0,4418,
-,268,html-keyboard-response,129,2.0.0,2624480,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 28 points.</p>
+                    "
+,,html-keyboard-response,128,2.0.0,2624212,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":12}",10.0,12.0,10.0,5.0,SG,Red,coop,G.P.,pess_inv,def,7.0,0.0,4418.0,
+,268.0,html-keyboard-response,129,2.0.0,2624480,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 28 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,130,2.0.0,2629660,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":8},0,8,10,5,SH,Red,coop,G.P.,pess_inv,coop,8,1,5180,
-,271,html-keyboard-response,131,2.0.0,2629931,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 29 points.</p>
+                    "
+,,html-keyboard-response,130,2.0.0,2629660,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":8}",0.0,8.0,10.0,5.0,SH,Red,coop,G.P.,pess_inv,coop,8.0,1.0,5180.0,
+,271.0,html-keyboard-response,131,2.0.0,2629931,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 29 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,132,2.0.0,2632898,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":8},7,8,10,5,HG,Red,coop,G.P.,pess_inv,def,9,0,2966,
-,292,html-keyboard-response,133,2.0.0,2633191,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 29 points.</p>
+                    "
+,,html-keyboard-response,132,2.0.0,2632898,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":8}",7.0,8.0,10.0,5.0,HG,Red,coop,G.P.,pess_inv,def,9.0,0.0,2966.0,
+,292.0,html-keyboard-response,133,2.0.0,2633191,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 29 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,134,2.0.0,2636766,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":12},3,12,10,5,PD,Red,coop,G.P.,pess_inv,coop,8,1,3574,
-,533,html-keyboard-response,135,2.0.0,2637300,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 30 points.</p>
+                    "
+,,html-keyboard-response,134,2.0.0,2636766,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":12}",3.0,12.0,10.0,5.0,PD,Red,coop,G.P.,pess_inv,coop,8.0,1.0,3574.0,
+,533.0,html-keyboard-response,135,2.0.0,2637300,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial, ,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 30 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,136,2.0.0,2743965,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":15},7,15,10,5,SG,Purple,def,G.P.,pess_inv,def,6,1,106664,
-,733,html-keyboard-response,137,2.0.0,2744698,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 31 points.</p>
+                    "
+,,html-keyboard-response,136,2.0.0,2743965,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":15}",7.0,15.0,10.0,5.0,SG,Purple,def,G.P.,pess_inv,def,6.0,1.0,106664.0,
+,733.0,html-keyboard-response,137,2.0.0,2744698,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 31 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,138,2.0.0,2748578,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":12},7,12,10,5,SG,Red,coop,G.P.,pess_inv,def,6,0,3880,
-,641,html-keyboard-response,139,2.0.0,2749220,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 31 points.</p>
+                    "
+,,html-keyboard-response,138,2.0.0,2748578,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":12}",7.0,12.0,10.0,5.0,SG,Red,coop,G.P.,pess_inv,def,6.0,0.0,3880.0,
+,641.0,html-keyboard-response,139,2.0.0,2749220,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 31 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,140,2.0.0,2753229,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":7,"T":5},7,5,10,5,HG,Red,coop,G.P.,pess_inv,def,8,0,4008,
-,606,html-keyboard-response,141,2.0.0,2753836,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 31 points.</p>
+                    "
+,,html-keyboard-response,140,2.0.0,2753229,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":7,""T"":5}",7.0,5.0,10.0,5.0,HG,Red,coop,G.P.,pess_inv,def,8.0,0.0,4008.0,
+,606.0,html-keyboard-response,141,2.0.0,2753836,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 31 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,142,2.0.0,2757078,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":3,"T":15},3,15,10,5,PD,Purple,def,G.P.,pess_inv,coop,7,0,3241,
-,612,html-keyboard-response,143,2.0.0,2757692,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 31 points.</p>
+                    "
+,,html-keyboard-response,142,2.0.0,2757078,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":3,""T"":15}",3.0,15.0,10.0,5.0,PD,Purple,def,G.P.,pess_inv,coop,7.0,0.0,3241.0,
+,612.0,html-keyboard-response,143,2.0.0,2757692,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 31 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,144,2.0.0,2761820,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":0,"T":5},0,5,10,5,SH,Red,coop,G.P.,pess_inv,coop,10,1,4128,
-,687,html-keyboard-response,145,2.0.0,2762507,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p><p>You now have 32 points.</p>
+                    "
+,,html-keyboard-response,144,2.0.0,2761820,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":0,""T"":5}",0.0,5.0,10.0,5.0,SH,Red,coop,G.P.,pess_inv,coop,10.0,1.0,4128.0,
+,687.0,html-keyboard-response,145,2.0.0,2762507,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p><p>You now have 32 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,146,2.0.0,2766401,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,{"R":10,"P":5,"S":10,"T":8},10,8,10,5,HG,Red,coop,G.P.,pess_inv,def,8,0,3894,
-,646,html-keyboard-response,147,2.0.0,2767047,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p><p>You still have 32 points.</p>
+                    "
+,,html-keyboard-response,146,2.0.0,2766401,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,socialPredictionGame,,,,"{""R"":10,""P"":5,""S"":10,""T"":8}",10.0,8.0,10.0,5.0,HG,Red,coop,G.P.,pess_inv,def,8.0,0.0,3894.0,
+,646.0,html-keyboard-response,147,2.0.0,2767047,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,feedbackTrial,ArrowRight,,,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p><p>You still have 32 points.</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,6731,survey-html-form,148,2.1.0,2773780,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,strategyPrediction,{"strategyPrediction":"i'm not sure"},,,,,,,,,,,,,,,,,
-,4492,survey-html-form,149,2.1.0,2778273,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,demographics,{"age":"27","gender":"Male"},,,,,,,,,,,,,,,,,
-,2850,survey-html-form,150,2.1.0,2781125,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,technical,{"technical":"","feedback":""},,,,,,,,,,,,,,,,,
+                    "
+,6731.0,survey-html-form,148,2.1.0,2773780,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,strategyPrediction,"{""strategyPrediction"":""i'm not sure""}",,,,,,,,,,,,,,,,,
+,4492.0,survey-html-form,149,2.1.0,2778273,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,demographics,"{""age"":""27"",""gender"":""Male""}",,,,,,,,,,,,,,,,,
+,2850.0,survey-html-form,150,2.1.0,2781125,wjhla23322,692638df063c96e069476515,69325e3e179aeba47c4d9c4d,32,technical,"{""technical"":"""",""feedback"":""""}",,,,,,,,,,,,,,,,,

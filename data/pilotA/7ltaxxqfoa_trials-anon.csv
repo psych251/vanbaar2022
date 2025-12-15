@@ -1,465 +1,465 @@
 view_history,rt,trial_type,trial_index,plugin_version,time_elapsed,subjectID,studyID,sessionID,success,task,response,question_order,Matrix,S,T,R,P,GameType,choice,GivenAns,Player,PlayerType,CorrAns,confidence,ScoreNum,stimulus
-[{"page_index":0,"viewing_time":7821},{"page_index":1,"viewing_time":2516}],10337,instructions,0,2.1.0,10342,7ltaxxqfoa,null,null,,,,,,,,,,,,,,,,,,
-,1174,fullscreen,1,2.1.0,12525,7ltaxxqfoa,null,null,true,,,,,,,,,,,,,,,,,
-[{"page_index":0,"viewing_time":13935}],13935,instructions,2,2.1.0,26463,7ltaxxqfoa,null,null,,,,,,,,,,,,,,,,,,
-[{"page_index":0,"viewing_time":4239}],4239,instructions,3,2.1.0,30704,7ltaxxqfoa,null,null,,,,,,,,,,,,,,,,,,
-,9840,survey-multi-choice,4,null,40549,7ltaxxqfoa,null,null,,comprehensionCheck,{"task":"Choose the option the anonymized participant chose","numChoices":"1 option"},[0,1],,,,,,,,,,,,,,
-[{"page_index":0,"viewing_time":2042}],2042,instructions,5,2.1.0,42592,7ltaxxqfoa,null,null,,,,,,,,,,,,,,,,,,
-,,html-keyboard-response,6,2.0.0,78210,7ltaxxqfoa,null,null,,playOwnGame,,,{"R":10,"P":5,"S":7,"T":15},7,15,10,5,SG,Red,coop,,,,,,
-,,html-keyboard-response,7,2.0.0,81317,7ltaxxqfoa,null,null,,playOwnGame,,,{"R":10,"P":5,"S":7,"T":5},7,5,10,5,HG,Red,coop,,,,,,
-,,html-keyboard-response,8,2.0.0,85217,7ltaxxqfoa,null,null,,playOwnGame,,,{"R":10,"P":5,"S":3,"T":5},3,5,10,5,SH,Yellow,def,,,,,,
-,,html-keyboard-response,9,2.0.0,89034,7ltaxxqfoa,null,null,,playOwnGame,,,{"R":10,"P":5,"S":3,"T":12},3,12,10,5,PD,Red,coop,,,,,,
-[{"page_index":0,"viewing_time":1726}],1726,instructions,10,2.1.0,90763,7ltaxxqfoa,null,null,,,,,,,,,,,,,,,,,,
-,,html-keyboard-response,11,2.0.0,107587,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":8},0,8,10,5,SH,Yellow,coop,D.T.,opt_inv,def,10,0,
-,3854,html-keyboard-response,12,2.0.0,111445,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+"[{""page_index"":0,""viewing_time"":7821},{""page_index"":1,""viewing_time"":2516}]",10337.0,instructions,0,2.1.0,10342,7ltaxxqfoa,,,,,,,,,,,,,,,,,,,,
+,1174.0,fullscreen,1,2.1.0,12525,7ltaxxqfoa,,,True,,,,,,,,,,,,,,,,,
+"[{""page_index"":0,""viewing_time"":13935}]",13935.0,instructions,2,2.1.0,26463,7ltaxxqfoa,,,,,,,,,,,,,,,,,,,,
+"[{""page_index"":0,""viewing_time"":4239}]",4239.0,instructions,3,2.1.0,30704,7ltaxxqfoa,,,,,,,,,,,,,,,,,,,,
+,9840.0,survey-multi-choice,4,,40549,7ltaxxqfoa,,,,comprehensionCheck,"{""task"":""Choose the option the anonymized participant chose"",""numChoices"":""1 option""}","[0,1]",,,,,,,,,,,,,,
+"[{""page_index"":0,""viewing_time"":2042}]",2042.0,instructions,5,2.1.0,42592,7ltaxxqfoa,,,,,,,,,,,,,,,,,,,,
+,,html-keyboard-response,6,2.0.0,78210,7ltaxxqfoa,,,,playOwnGame,,,"{""R"":10,""P"":5,""S"":7,""T"":15}",7.0,15.0,10.0,5.0,SG,Red,coop,,,,,,
+,,html-keyboard-response,7,2.0.0,81317,7ltaxxqfoa,,,,playOwnGame,,,"{""R"":10,""P"":5,""S"":7,""T"":5}",7.0,5.0,10.0,5.0,HG,Red,coop,,,,,,
+,,html-keyboard-response,8,2.0.0,85217,7ltaxxqfoa,,,,playOwnGame,,,"{""R"":10,""P"":5,""S"":3,""T"":5}",3.0,5.0,10.0,5.0,SH,Yellow,def,,,,,,
+,,html-keyboard-response,9,2.0.0,89034,7ltaxxqfoa,,,,playOwnGame,,,"{""R"":10,""P"":5,""S"":3,""T"":12}",3.0,12.0,10.0,5.0,PD,Red,coop,,,,,,
+"[{""page_index"":0,""viewing_time"":1726}]",1726.0,instructions,10,2.1.0,90763,7ltaxxqfoa,,,,,,,,,,,,,,,,,,,,
+,,html-keyboard-response,11,2.0.0,107587,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":8}",0.0,8.0,10.0,5.0,SH,Yellow,coop,D.T.,opt_inv,def,10.0,0.0,
+,3854.0,html-keyboard-response,12,2.0.0,111445,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,13,2.0.0,125485,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":12},7,12,10,5,SG,Yellow,coop,D.T.,opt_inv,coop,7,1,
-,2769,html-keyboard-response,14,2.0.0,128257,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,13,2.0.0,125485,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":12}",7.0,12.0,10.0,5.0,SG,Yellow,coop,D.T.,opt_inv,coop,7.0,1.0,
+,2769.0,html-keyboard-response,14,2.0.0,128257,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,15,2.0.0,3961075,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":8},7,8,10,5,HG,Yellow,coop,D.T.,opt_inv,def,6,0,
-,1876,html-keyboard-response,16,2.0.0,3962952,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,15,2.0.0,3961075,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":8}",7.0,8.0,10.0,5.0,HG,Yellow,coop,D.T.,opt_inv,def,6.0,0.0,
+,1876.0,html-keyboard-response,16,2.0.0,3962952,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,17,2.0.0,3967576,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":12},10,12,10,5,SG,Green,def,D.T.,opt_inv,coop,3,0,
-,1636,html-keyboard-response,18,2.0.0,3969215,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,17,2.0.0,3967576,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":12}",10.0,12.0,10.0,5.0,SG,Green,def,D.T.,opt_inv,coop,3.0,0.0,
+,1636.0,html-keyboard-response,18,2.0.0,3969215,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,19,2.0.0,3975151,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":5},10,5,10,5,HG,Yellow,coop,D.T.,opt_inv,def,9,0,
-,1305,html-keyboard-response,20,2.0.0,3976459,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,19,2.0.0,3975151,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":5}",10.0,5.0,10.0,5.0,HG,Yellow,coop,D.T.,opt_inv,def,9.0,0.0,
+,1305.0,html-keyboard-response,20,2.0.0,3976459,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,21,2.0.0,3982171,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":15},0,15,10,5,PD,Yellow,coop,D.T.,opt_inv,coop,3,1,
-,1506,html-keyboard-response,22,2.0.0,3983678,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,21,2.0.0,3982171,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":15}",0.0,15.0,10.0,5.0,PD,Yellow,coop,D.T.,opt_inv,coop,3.0,1.0,
+,1506.0,html-keyboard-response,22,2.0.0,3983678,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,23,2.0.0,3989815,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":5},0,5,10,5,SH,Green,def,D.T.,opt_inv,def,6,1,
-,1360,html-keyboard-response,24,2.0.0,3991177,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,23,2.0.0,3989815,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":5}",0.0,5.0,10.0,5.0,SH,Green,def,D.T.,opt_inv,def,6.0,1.0,
+,1360.0,html-keyboard-response,24,2.0.0,3991177,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,25,2.0.0,3998269,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":8},10,8,10,5,HG,Yellow,coop,D.T.,opt_inv,def,3,0,
-,865,html-keyboard-response,26,2.0.0,3999137,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,25,2.0.0,3998269,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":8}",10.0,8.0,10.0,5.0,HG,Yellow,coop,D.T.,opt_inv,def,3.0,0.0,
+,865.0,html-keyboard-response,26,2.0.0,3999137,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,27,2.0.0,4003837,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":15},10,15,10,5,SG,Yellow,coop,D.T.,opt_inv,coop,4,1,
-,1433,html-keyboard-response,28,2.0.0,4005273,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,27,2.0.0,4003837,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":15}",10.0,15.0,10.0,5.0,SG,Yellow,coop,D.T.,opt_inv,coop,4.0,1.0,
+,1433.0,html-keyboard-response,28,2.0.0,4005273,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,29,2.0.0,4008607,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":12},3,12,10,5,PD,Green,def,D.T.,opt_inv,coop,7,0,
-,869,html-keyboard-response,30,2.0.0,4009479,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,29,2.0.0,4008607,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":12}",3.0,12.0,10.0,5.0,PD,Green,def,D.T.,opt_inv,coop,7.0,0.0,
+,869.0,html-keyboard-response,30,2.0.0,4009479,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,31,2.0.0,4015985,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":12},0,12,10,5,PD,Yellow,coop,D.T.,opt_inv,coop,7,1,
-,1807,html-keyboard-response,32,2.0.0,4017795,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,31,2.0.0,4015985,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":12}",0.0,12.0,10.0,5.0,PD,Yellow,coop,D.T.,opt_inv,coop,7.0,1.0,
+,1807.0,html-keyboard-response,32,2.0.0,4017795,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,33,2.0.0,4024612,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":8},3,8,10,5,SH,Green,def,D.T.,opt_inv,def,5,1,
-,970,html-keyboard-response,34,2.0.0,4025584,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,33,2.0.0,4024612,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":8}",3.0,8.0,10.0,5.0,SH,Green,def,D.T.,opt_inv,def,5.0,1.0,
+,970.0,html-keyboard-response,34,2.0.0,4025584,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,35,2.0.0,4044569,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":5},7,5,10,5,HG,Yellow,coop,D.T.,opt_inv,def,5,0,
-,1197,html-keyboard-response,36,2.0.0,4045767,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,35,2.0.0,4044569,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":5}",7.0,5.0,10.0,5.0,HG,Yellow,coop,D.T.,opt_inv,def,5.0,0.0,
+,1197.0,html-keyboard-response,36,2.0.0,4045767,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,37,2.0.0,4050149,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":15},7,15,10,5,SG,Yellow,coop,D.T.,opt_inv,coop,7,1,
-,1124,html-keyboard-response,38,2.0.0,4051275,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,37,2.0.0,4050149,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":15}",7.0,15.0,10.0,5.0,SG,Yellow,coop,D.T.,opt_inv,coop,7.0,1.0,
+,1124.0,html-keyboard-response,38,2.0.0,4051275,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,39,2.0.0,4057112,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":5},3,5,10,5,SH,Green,def,D.T.,opt_inv,def,3,1,
-,839,html-keyboard-response,40,2.0.0,4057955,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,39,2.0.0,4057112,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":5}",3.0,5.0,10.0,5.0,SH,Green,def,D.T.,opt_inv,def,3.0,1.0,
+,839.0,html-keyboard-response,40,2.0.0,4057955,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,41,2.0.0,4061976,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":15},3,15,10,5,PD,Yellow,coop,D.T.,opt_inv,coop,9,1,
-,1707,html-keyboard-response,42,2.0.0,4063686,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,41,2.0.0,4061976,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":15}",3.0,15.0,10.0,5.0,PD,Yellow,coop,D.T.,opt_inv,coop,9.0,1.0,
+,1707.0,html-keyboard-response,42,2.0.0,4063686,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-[{"page_index":0,"viewing_time":2954}],2954,instructions,43,2.1.0,4066640,7ltaxxqfoa,null,null,,,,,,,,,,,,,,,,,,
-,,html-keyboard-response,44,2.0.0,4138027,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":5},3,5,10,5,SH,Yellow,def,G.P.,opt_nat,coop,5,0,
-,2253,html-keyboard-response,45,2.0.0,4140283,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+"[{""page_index"":0,""viewing_time"":2954}]",2954.0,instructions,43,2.1.0,4066640,7ltaxxqfoa,,,,,,,,,,,,,,,,,,,,
+,,html-keyboard-response,44,2.0.0,4138027,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":5}",3.0,5.0,10.0,5.0,SH,Yellow,def,G.P.,opt_nat,coop,5.0,0.0,
+,2253.0,html-keyboard-response,45,2.0.0,4140283,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,46,2.0.0,4143956,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":8},0,8,10,5,SH,Red,coop,G.P.,opt_nat,coop,6,1,
-,1505,html-keyboard-response,47,2.0.0,4145463,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,46,2.0.0,4143956,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":8}",0.0,8.0,10.0,5.0,SH,Red,coop,G.P.,opt_nat,coop,6.0,1.0,
+,1505.0,html-keyboard-response,47,2.0.0,4145463,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,48,2.0.0,4148724,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":12},3,12,10,5,PD,Yellow,def,G.P.,opt_nat,def,7,1,
-,1117,html-keyboard-response,49,2.0.0,4149842,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,48,2.0.0,4148724,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":12}",3.0,12.0,10.0,5.0,PD,Yellow,def,G.P.,opt_nat,def,7.0,1.0,
+,1117.0,html-keyboard-response,49,2.0.0,4149842,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,50,2.0.0,4153297,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":5},0,5,10,5,SH,Red,coop,G.P.,opt_nat,coop,4,1,
-,1261,html-keyboard-response,51,2.0.0,4154560,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,50,2.0.0,4153297,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":5}",0.0,5.0,10.0,5.0,SH,Red,coop,G.P.,opt_nat,coop,4.0,1.0,
+,1261.0,html-keyboard-response,51,2.0.0,4154560,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,52,2.0.0,4159236,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":12},10,12,10,5,SG,Yellow,def,G.P.,opt_nat,def,10,1,
-,4414,html-keyboard-response,53,2.0.0,4163651,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,52,2.0.0,4159236,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":12}",10.0,12.0,10.0,5.0,SG,Yellow,def,G.P.,opt_nat,def,10.0,1.0,
+,4414.0,html-keyboard-response,53,2.0.0,4163651,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,54,2.0.0,4168783,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":5},10,5,10,5,HG,Red,coop,G.P.,opt_nat,coop,3,1,
-,1050,html-keyboard-response,55,2.0.0,4169835,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,54,2.0.0,4168783,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":5}",10.0,5.0,10.0,5.0,HG,Red,coop,G.P.,opt_nat,coop,3.0,1.0,
+,1050.0,html-keyboard-response,55,2.0.0,4169835,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,56,2.0.0,4174073,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":15},10,15,10,5,SG,Yellow,def,G.P.,opt_nat,def,6,1,
-,1394,html-keyboard-response,57,2.0.0,4175468,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,56,2.0.0,4174073,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":15}",10.0,15.0,10.0,5.0,SG,Yellow,def,G.P.,opt_nat,def,6.0,1.0,
+,1394.0,html-keyboard-response,57,2.0.0,4175468,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,58,2.0.0,4179460,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":15},7,15,10,5,SG,Red,coop,G.P.,opt_nat,def,3,0,
-,734,html-keyboard-response,59,2.0.0,4180196,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,58,2.0.0,4179460,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":15}",7.0,15.0,10.0,5.0,SG,Red,coop,G.P.,opt_nat,def,3.0,0.0,
+,734.0,html-keyboard-response,59,2.0.0,4180196,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,60,2.0.0,4183756,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":12},0,12,10,5,PD,Yellow,def,G.P.,opt_nat,def,6,1,
-,1062,html-keyboard-response,61,2.0.0,4184820,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,60,2.0.0,4183756,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":12}",0.0,12.0,10.0,5.0,PD,Yellow,def,G.P.,opt_nat,def,6.0,1.0,
+,1062.0,html-keyboard-response,61,2.0.0,4184820,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,62,2.0.0,4188940,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":8},3,8,10,5,SH,Red,coop,G.P.,opt_nat,coop,6,1,
-,3956,html-keyboard-response,63,2.0.0,4192899,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,62,2.0.0,4188940,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":8}",3.0,8.0,10.0,5.0,SH,Red,coop,G.P.,opt_nat,coop,6.0,1.0,
+,3956.0,html-keyboard-response,63,2.0.0,4192899,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,64,2.0.0,4238746,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":15},3,15,10,5,PD,Red,coop,G.P.,opt_nat,def,5,0,
-,15628,html-keyboard-response,65,2.0.0,4254377,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,64,2.0.0,4238746,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":15}",3.0,15.0,10.0,5.0,PD,Red,coop,G.P.,opt_nat,def,5.0,0.0,
+,15628.0,html-keyboard-response,65,2.0.0,4254377,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,66,2.0.0,4259572,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":8},7,8,10,5,HG,Yellow,def,G.P.,opt_nat,coop,7,0,
-,910,html-keyboard-response,67,2.0.0,4260483,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,66,2.0.0,4259572,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":8}",7.0,8.0,10.0,5.0,HG,Yellow,def,G.P.,opt_nat,coop,7.0,0.0,
+,910.0,html-keyboard-response,67,2.0.0,4260483,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,68,2.0.0,4266202,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":8},10,8,10,5,HG,Red,coop,G.P.,opt_nat,coop,3,1,
-,983,html-keyboard-response,69,2.0.0,4267188,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,68,2.0.0,4266202,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":8}",10.0,8.0,10.0,5.0,HG,Red,coop,G.P.,opt_nat,coop,3.0,1.0,
+,983.0,html-keyboard-response,69,2.0.0,4267188,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,70,2.0.0,4270624,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":5},7,5,10,5,HG,Yellow,def,G.P.,opt_nat,coop,7,0,
-,789,html-keyboard-response,71,2.0.0,4271415,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,70,2.0.0,4270624,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":5}",7.0,5.0,10.0,5.0,HG,Yellow,def,G.P.,opt_nat,coop,7.0,0.0,
+,789.0,html-keyboard-response,71,2.0.0,4271415,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,72,2.0.0,4276088,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":12},7,12,10,5,SG,Red,coop,G.P.,opt_nat,def,5,0,
-,737,html-keyboard-response,73,2.0.0,4276829,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,72,2.0.0,4276088,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":12}",7.0,12.0,10.0,5.0,SG,Red,coop,G.P.,opt_nat,def,5.0,0.0,
+,737.0,html-keyboard-response,73,2.0.0,4276829,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,74,2.0.0,4280136,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":15},0,15,10,5,PD,Yellow,def,G.P.,opt_nat,def,7,1,
-,682,html-keyboard-response,75,2.0.0,4280820,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,74,2.0.0,4280136,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":15}",0.0,15.0,10.0,5.0,PD,Yellow,def,G.P.,opt_nat,def,7.0,1.0,
+,682.0,html-keyboard-response,75,2.0.0,4280820,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-[{"page_index":0,"viewing_time":1919}],1919,instructions,76,2.1.0,4282741,7ltaxxqfoa,null,null,,,,,,,,,,,,,,,,,,
-,,html-keyboard-response,77,2.0.0,4286738,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":12},0,12,10,5,PD,Red,coop,F.A.,pess_nat,def,4,0,
-,956,html-keyboard-response,78,2.0.0,4287697,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+"[{""page_index"":0,""viewing_time"":1919}]",1919.0,instructions,76,2.1.0,4282741,7ltaxxqfoa,,,,,,,,,,,,,,,,,,,,
+,,html-keyboard-response,77,2.0.0,4286738,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":12}",0.0,12.0,10.0,5.0,PD,Red,coop,F.A.,pess_nat,def,4.0,0.0,
+,956.0,html-keyboard-response,78,2.0.0,4287697,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,79,2.0.0,4300605,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":5},10,5,10,5,HG,Red,coop,F.A.,pess_nat,coop,4,1,
-,2948,html-keyboard-response,80,2.0.0,4303554,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,79,2.0.0,4300605,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":5}",10.0,5.0,10.0,5.0,HG,Red,coop,F.A.,pess_nat,coop,4.0,1.0,
+,2948.0,html-keyboard-response,80,2.0.0,4303554,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,81,2.0.0,4307792,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":8},0,8,10,5,SH,Blue,def,F.A.,pess_nat,def,5,1,
-,791,html-keyboard-response,82,2.0.0,4308585,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,81,2.0.0,4307792,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":8}",0.0,8.0,10.0,5.0,SH,Blue,def,F.A.,pess_nat,def,5.0,1.0,
+,791.0,html-keyboard-response,82,2.0.0,4308585,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,83,2.0.0,4313272,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":12},3,12,10,5,PD,Red,coop,F.A.,pess_nat,def,10,0,
-,1386,html-keyboard-response,84,2.0.0,4314659,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,83,2.0.0,4313272,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":12}",3.0,12.0,10.0,5.0,PD,Red,coop,F.A.,pess_nat,def,10.0,0.0,
+,1386.0,html-keyboard-response,84,2.0.0,4314659,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,85,2.0.0,4319296,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":8},10,8,10,5,HG,Red,coop,F.A.,pess_nat,coop,2,1,
-,769,html-keyboard-response,86,2.0.0,4320066,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,85,2.0.0,4319296,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":8}",10.0,8.0,10.0,5.0,HG,Red,coop,F.A.,pess_nat,coop,2.0,1.0,
+,769.0,html-keyboard-response,86,2.0.0,4320066,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,87,2.0.0,4323501,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":8},7,8,10,5,HG,Red,coop,F.A.,pess_nat,coop,2,1,
-,859,html-keyboard-response,88,2.0.0,4324361,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,87,2.0.0,4323501,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":8}",7.0,8.0,10.0,5.0,HG,Red,coop,F.A.,pess_nat,coop,2.0,1.0,
+,859.0,html-keyboard-response,88,2.0.0,4324361,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,89,2.0.0,4327824,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":5},0,5,10,5,SH,Blue,def,F.A.,pess_nat,def,8,1,
-,977,html-keyboard-response,90,2.0.0,4328803,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,89,2.0.0,4327824,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":5}",0.0,5.0,10.0,5.0,SH,Blue,def,F.A.,pess_nat,def,8.0,1.0,
+,977.0,html-keyboard-response,90,2.0.0,4328803,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,91,2.0.0,4332844,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":15},10,15,10,5,SG,Blue,def,F.A.,pess_nat,coop,7,0,
-,679,html-keyboard-response,92,2.0.0,4333524,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,91,2.0.0,4332844,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":15}",10.0,15.0,10.0,5.0,SG,Blue,def,F.A.,pess_nat,coop,7.0,0.0,
+,679.0,html-keyboard-response,92,2.0.0,4333524,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,93,2.0.0,4337595,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":15},3,15,10,5,PD,Blue,def,F.A.,pess_nat,def,6,1,
-,625,html-keyboard-response,94,2.0.0,4338224,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,93,2.0.0,4337595,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":15}",3.0,15.0,10.0,5.0,PD,Blue,def,F.A.,pess_nat,def,6.0,1.0,
+,625.0,html-keyboard-response,94,2.0.0,4338224,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,95,2.0.0,4342176,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":12},10,12,10,5,SG,Red,coop,F.A.,pess_nat,coop,4,1,
-,797,html-keyboard-response,96,2.0.0,4342974,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,95,2.0.0,4342176,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":12}",10.0,12.0,10.0,5.0,SG,Red,coop,F.A.,pess_nat,coop,4.0,1.0,
+,797.0,html-keyboard-response,96,2.0.0,4342974,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,97,2.0.0,4348698,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":15},0,15,10,5,PD,Blue,def,F.A.,pess_nat,def,5,1,
-,809,html-keyboard-response,98,2.0.0,4349509,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,97,2.0.0,4348698,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":15}",0.0,15.0,10.0,5.0,PD,Blue,def,F.A.,pess_nat,def,5.0,1.0,
+,809.0,html-keyboard-response,98,2.0.0,4349509,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,99,2.0.0,4353570,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":5},3,5,10,5,SH,Red,coop,F.A.,pess_nat,def,4,0,
-,925,html-keyboard-response,100,2.0.0,4354495,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,99,2.0.0,4353570,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":5}",3.0,5.0,10.0,5.0,SH,Red,coop,F.A.,pess_nat,def,4.0,0.0,
+,925.0,html-keyboard-response,100,2.0.0,4354495,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,101,2.0.0,4358695,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":8},3,8,10,5,SH,Blue,def,F.A.,pess_nat,def,6,1,
-,693,html-keyboard-response,102,2.0.0,4359389,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,101,2.0.0,4358695,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":8}",3.0,8.0,10.0,5.0,SH,Blue,def,F.A.,pess_nat,def,6.0,1.0,
+,693.0,html-keyboard-response,102,2.0.0,4359389,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,103,2.0.0,4362659,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":5},7,5,10,5,HG,Red,coop,F.A.,pess_nat,coop,5,1,
-,681,html-keyboard-response,104,2.0.0,4363341,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,103,2.0.0,4362659,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":5}",7.0,5.0,10.0,5.0,HG,Red,coop,F.A.,pess_nat,coop,5.0,1.0,
+,681.0,html-keyboard-response,104,2.0.0,4363341,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,105,2.0.0,4368016,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":15},7,15,10,5,SG,Blue,def,F.A.,pess_nat,coop,6,0,
-,728,html-keyboard-response,106,2.0.0,4368747,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,105,2.0.0,4368016,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":15}",7.0,15.0,10.0,5.0,SG,Blue,def,F.A.,pess_nat,coop,6.0,0.0,
+,728.0,html-keyboard-response,106,2.0.0,4368747,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,107,2.0.0,4373679,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":12},7,12,10,5,SG,Red,coop,F.A.,pess_nat,coop,3,1,
-,729,html-keyboard-response,108,2.0.0,4374410,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,107,2.0.0,4373679,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":12}",7.0,12.0,10.0,5.0,SG,Red,coop,F.A.,pess_nat,coop,3.0,1.0,
+,729.0,html-keyboard-response,108,2.0.0,4374410,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-[{"page_index":0,"viewing_time":992}],992,instructions,109,2.1.0,4375402,7ltaxxqfoa,null,null,,,,,,,,,,,,,,,,,,
-,,html-keyboard-response,110,2.0.0,4379682,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":15},10,15,10,5,SG,Green,def,E.B.,pess_inv,def,6,1,
-,787,html-keyboard-response,111,2.0.0,4380472,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+"[{""page_index"":0,""viewing_time"":992}]",992.0,instructions,109,2.1.0,4375402,7ltaxxqfoa,,,,,,,,,,,,,,,,,,,,
+,,html-keyboard-response,110,2.0.0,4379682,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":15}",10.0,15.0,10.0,5.0,SG,Green,def,E.B.,pess_inv,def,6.0,1.0,
+,787.0,html-keyboard-response,111,2.0.0,4380472,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,112,2.0.0,4383466,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":12},10,12,10,5,SG,Blue,coop,E.B.,pess_inv,def,4,0,
-,994,html-keyboard-response,113,2.0.0,4384462,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,112,2.0.0,4383466,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":12}",10.0,12.0,10.0,5.0,SG,Blue,coop,E.B.,pess_inv,def,4.0,0.0,
+,994.0,html-keyboard-response,113,2.0.0,4384462,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,114,2.0.0,4388299,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":8},0,8,10,5,SH,Blue,coop,E.B.,pess_inv,coop,5,1,
-,628,html-keyboard-response,115,2.0.0,4388929,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,114,2.0.0,4388299,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":8}",0.0,8.0,10.0,5.0,SH,Blue,coop,E.B.,pess_inv,coop,5.0,1.0,
+,628.0,html-keyboard-response,115,2.0.0,4388929,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,116,2.0.0,4392553,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":5},7,5,10,5,HG,Green,def,E.B.,pess_inv,def,6,1,
-,896,html-keyboard-response,117,2.0.0,4393452,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,116,2.0.0,4392553,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":5}",7.0,5.0,10.0,5.0,HG,Green,def,E.B.,pess_inv,def,6.0,1.0,
+,896.0,html-keyboard-response,117,2.0.0,4393452,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,118,2.0.0,4397131,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":12},0,12,10,5,PD,Green,def,E.B.,pess_inv,coop,6,0,
-,738,html-keyboard-response,119,2.0.0,4397870,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,118,2.0.0,4397131,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":12}",0.0,12.0,10.0,5.0,PD,Green,def,E.B.,pess_inv,coop,6.0,0.0,
+,738.0,html-keyboard-response,119,2.0.0,4397870,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,120,2.0.0,4401432,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":12},3,12,10,5,PD,Green,def,E.B.,pess_inv,coop,6,0,
-,787,html-keyboard-response,121,2.0.0,4402222,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,120,2.0.0,4401432,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":12}",3.0,12.0,10.0,5.0,PD,Green,def,E.B.,pess_inv,coop,6.0,0.0,
+,787.0,html-keyboard-response,121,2.0.0,4402222,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,122,2.0.0,4404853,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":5},10,5,10,5,HG,Green,def,E.B.,pess_inv,def,6,1,
-,1041,html-keyboard-response,123,2.0.0,4405895,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,122,2.0.0,4404853,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":5}",10.0,5.0,10.0,5.0,HG,Green,def,E.B.,pess_inv,def,6.0,1.0,
+,1041.0,html-keyboard-response,123,2.0.0,4405895,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,124,2.0.0,4409219,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":15},3,15,10,5,PD,Green,def,E.B.,pess_inv,coop,6,0,
-,556,html-keyboard-response,125,2.0.0,4409778,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,124,2.0.0,4409219,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":15}",3.0,15.0,10.0,5.0,PD,Green,def,E.B.,pess_inv,coop,6.0,0.0,
+,556.0,html-keyboard-response,125,2.0.0,4409778,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,126,2.0.0,4413712,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":12},7,12,10,5,SG,Green,def,E.B.,pess_inv,def,6,1,
-,547,html-keyboard-response,127,2.0.0,4414261,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,126,2.0.0,4413712,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":12}",7.0,12.0,10.0,5.0,SG,Green,def,E.B.,pess_inv,def,6.0,1.0,
+,547.0,html-keyboard-response,127,2.0.0,4414261,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,128,2.0.0,4416912,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":5},3,5,10,5,SH,Green,def,E.B.,pess_inv,coop,6,0,
-,864,html-keyboard-response,129,2.0.0,4417779,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,128,2.0.0,4416912,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":5}",3.0,5.0,10.0,5.0,SH,Green,def,E.B.,pess_inv,coop,6.0,0.0,
+,864.0,html-keyboard-response,129,2.0.0,4417779,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,130,2.0.0,4420621,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":15},7,15,10,5,SG,Green,def,E.B.,pess_inv,def,6,1,
-,591,html-keyboard-response,131,2.0.0,4421213,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,130,2.0.0,4420621,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":15}",7.0,15.0,10.0,5.0,SG,Green,def,E.B.,pess_inv,def,6.0,1.0,
+,591.0,html-keyboard-response,131,2.0.0,4421213,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,132,2.0.0,4424337,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":15},0,15,10,5,PD,Green,def,E.B.,pess_inv,coop,6,0,
-,627,html-keyboard-response,133,2.0.0,4424966,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,132,2.0.0,4424337,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":15}",0.0,15.0,10.0,5.0,PD,Green,def,E.B.,pess_inv,coop,6.0,0.0,
+,627.0,html-keyboard-response,133,2.0.0,4424966,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,134,2.0.0,4428273,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":0,"T":5},0,5,10,5,SH,Green,def,E.B.,pess_inv,coop,6,0,
-,606,html-keyboard-response,135,2.0.0,4428882,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,134,2.0.0,4428273,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":0,""T"":5}",0.0,5.0,10.0,5.0,SH,Green,def,E.B.,pess_inv,coop,6.0,0.0,
+,606.0,html-keyboard-response,135,2.0.0,4428882,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,136,2.0.0,4432931,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":10,"T":8},10,8,10,5,HG,Green,def,E.B.,pess_inv,def,6,1,
-,1594,html-keyboard-response,137,2.0.0,4434529,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,136,2.0.0,4432931,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":10,""T"":8}",10.0,8.0,10.0,5.0,HG,Green,def,E.B.,pess_inv,def,6.0,1.0,
+,1594.0,html-keyboard-response,137,2.0.0,4434529,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,138,2.0.0,4438111,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":7,"T":8},7,8,10,5,HG,Green,def,E.B.,pess_inv,def,6,1,
-,1220,html-keyboard-response,139,2.0.0,4439332,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:green; font-size:24px;">Correct!</p>
+                    "
+,,html-keyboard-response,138,2.0.0,4438111,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":7,""T"":8}",7.0,8.0,10.0,5.0,HG,Green,def,E.B.,pess_inv,def,6.0,1.0,
+,1220.0,html-keyboard-response,139,2.0.0,4439332,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:green; font-size:24px;"">Correct!</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,,html-keyboard-response,140,2.0.0,4442037,7ltaxxqfoa,null,null,,socialPredictionGame,,,{"R":10,"P":5,"S":3,"T":8},3,8,10,5,SH,Green,def,E.B.,pess_inv,coop,6,0,
-,656,html-keyboard-response,141,2.0.0,4442695,7ltaxxqfoa,null,null,,feedbackTrial, ,,,,,,,,,,,,,,,
-                    <div style="text-align:center;">
-                        <p style="color:red; font-size:24px;">Incorrect</p>
+                    "
+,,html-keyboard-response,140,2.0.0,4442037,7ltaxxqfoa,,,,socialPredictionGame,,,"{""R"":10,""P"":5,""S"":3,""T"":8}",3.0,8.0,10.0,5.0,SH,Green,def,E.B.,pess_inv,coop,6.0,0.0,
+,656.0,html-keyboard-response,141,2.0.0,4442695,7ltaxxqfoa,,,,feedbackTrial, ,,,,,,,,,,,,,,,"
+                    <div style=""text-align:center;"">
+                        <p style=""color:red; font-size:24px;"">Incorrect</p>
                         <p> Press any key to continue. </p>
                     </div>
-                    
-,11401,survey-html-form,142,2.1.0,4454099,7ltaxxqfoa,null,null,,demographics,{"age":"23","gender":"Prefer Not to Say"},,,,,,,,,,,,,,,
-,26488,survey-html-form,143,2.1.0,4480589,7ltaxxqfoa,null,null,,technical,{"technical":"None","feedback":"Clear instructions but overly long; became tedious."},,,,,,,,,,,,,,,
+                    "
+,11401.0,survey-html-form,142,2.1.0,4454099,7ltaxxqfoa,,,,demographics,"{""age"":""23"",""gender"":""Prefer Not to Say""}",,,,,,,,,,,,,,,
+,26488.0,survey-html-form,143,2.1.0,4480589,7ltaxxqfoa,,,,technical,"{""technical"":""None"",""feedback"":""Clear instructions but overly long; became tedious.""}",,,,,,,,,,,,,,,
